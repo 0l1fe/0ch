@@ -40,6 +40,16 @@ window.MathJax = {
     // Render live items initially
     renderItems(liveItems, feedContainer);
 
+    // --- FIX: Make "0ch" Logo redirect home ---
+    // Grabs the first brand button (the logo) and reloads the page to reset the view
+    const logoBtn = document.querySelector('.navbar .container .navbar-brand');
+    if (logoBtn) {
+      logoBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.location.reload(); 
+      });
+    }
+
     // 2. Setup Archive Button Logic
     const navContainer = document.querySelector('.navbar .container');
     if (navContainer) {
@@ -60,13 +70,13 @@ window.MathJax = {
         feedContainer.innerHTML = ''; 
         
         if (isArchiveView) {
-          // --- OPTIMIZED UI: Using native 'card' classes to match the theme ---
+          // --- OPTIMIZED UI: Notice the 'color: inherit' and '-webkit-appearance: none' on the button ---
           feedContainer.innerHTML = `
             <div class="card mb-4">
               <div class="card-body" style="display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
                 <label for="archive-date" style="margin: 0; font-weight: bold; font-family: inherit;">Filter by Date:</label>
-                <input type="date" id="archive-date" style="padding: 6px 12px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; flex-grow: 1; max-width: 250px;">
-                <button id="clear-date" style="padding: 6px 16px; cursor: pointer; border: 1px solid #ccc; background: transparent; border-radius: 4px; font-family: inherit;">Clear Filter</button>
+                <input type="date" id="archive-date" style="padding: 6px 12px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; color: inherit; flex-grow: 1; max-width: 250px;">
+                <button id="clear-date" style="padding: 6px 16px; cursor: pointer; border: 1px solid #ccc; background: transparent; border-radius: 4px; font-family: inherit; color: inherit; -webkit-appearance: none; appearance: none;">Clear Filter</button>
               </div>
             </div>
             <div id="archive-content"></div>
