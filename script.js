@@ -69,10 +69,11 @@ window.MathJax = {
         feedContainer.innerHTML = ''; 
         
         if (isArchiveView) {
+          // --- FIX: Changed <label> to <span> to remove click behavior ---
           feedContainer.innerHTML = `
             <div class="card mb-4">
               <div class="card-body" style="display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
-                <label for="archive-date" style="margin: 0; font-weight: bold; font-family: inherit;">Filter by Date:</label>
+                <span style="margin: 0; font-weight: bold; font-family: inherit;">Filter by Date:</span>
                 <input type="date" id="archive-date" style="padding: 6px 12px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; color: inherit; flex-grow: 1; max-width: 250px;">
                 <button id="clear-date" style="padding: 6px 16px; cursor: pointer; border: 1px solid #ccc; background: transparent; border-radius: 4px; font-family: inherit; color: inherit; -webkit-appearance: none; appearance: none;">Clear Filter</button>
               </div>
@@ -142,7 +143,6 @@ function renderItems(items, container) {
   container.innerHTML = ''; 
   const fragment = document.createDocumentFragment();
   
-  // --- FIX: Define strict English date formatting options ---
   const dateOptions = { 
     year: 'numeric', 
     month: 'short', 
@@ -155,7 +155,6 @@ function renderItems(items, container) {
     const article = document.createElement('article');
     article.className = 'card mb-4';
     
-    // --- FIX: Apply 'en-US' locale and formatting options to the date ---
     const formattedDate = new Date(item.pubDate).toLocaleString('en-US', dateOptions);
 
     article.innerHTML = `
