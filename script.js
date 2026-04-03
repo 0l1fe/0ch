@@ -60,12 +60,14 @@ window.MathJax = {
         feedContainer.innerHTML = ''; 
         
         if (isArchiveView) {
-          // --- NEW: Inject Date Picker UI ---
+          // --- OPTIMIZED UI: Using native 'card' classes to match the theme ---
           feedContainer.innerHTML = `
-            <div style="margin-bottom: 20px; display: flex; gap: 10px; align-items: center; padding: 10px; background: #f8f9fa; border-radius: 5px;">
-              <label for="archive-date" style="font-weight: bold;">Filter by Date:</label>
-              <input type="date" id="archive-date" style="padding: 5px; border: 1px solid #ccc; border-radius: 4px;">
-              <button id="clear-date" style="padding: 5px 10px; cursor: pointer; border: 1px solid #ccc; background: white; border-radius: 4px;">Clear Filter</button>
+            <div class="card mb-4">
+              <div class="card-body" style="display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+                <label for="archive-date" style="margin: 0; font-weight: bold; font-family: inherit;">Filter by Date:</label>
+                <input type="date" id="archive-date" style="padding: 6px 12px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; flex-grow: 1; max-width: 250px;">
+                <button id="clear-date" style="padding: 6px 16px; cursor: pointer; border: 1px solid #ccc; background: transparent; border-radius: 4px; font-family: inherit;">Clear Filter</button>
+              </div>
             </div>
             <div id="archive-content"></div>
           `;
@@ -89,7 +91,7 @@ window.MathJax = {
           // Initial render of all archive items
           renderItems(archiveItems, contentContainer);
 
-          // --- NEW: Filter Logic ---
+          // Filter Logic
           dateInput.addEventListener('change', (event) => {
             const selectedDate = event.target.value; // Format: YYYY-MM-DD
             if (!selectedDate) {
@@ -97,13 +99,12 @@ window.MathJax = {
             }
 
             const filteredItems = archiveItems.filter(item => {
-              // Extract just the YYYY-MM-DD part from the item's publication date
               const itemDate = new Date(item.pubDate).toISOString().split('T')[0];
               return itemDate === selectedDate;
             });
 
             if (filteredItems.length === 0) {
-              contentContainer.innerHTML = '<p>No articles found for this date.</p>';
+              contentContainer.innerHTML = '<p style="padding: 20px;">No articles found for this date.</p>';
             } else {
               renderItems(filteredItems, contentContainer);
             }
@@ -130,7 +131,7 @@ window.MathJax = {
 
 // Helper function to render items and trigger MathJax
 function renderItems(items, container) {
-  container.innerHTML = ''; // Clear container before rendering
+  container.innerHTML = ''; 
   const fragment = document.createDocumentFragment();
   items.forEach(item => {
     const article = document.createElement('article');
