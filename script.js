@@ -41,7 +41,6 @@ window.MathJax = {
     renderItems(liveItems, feedContainer);
 
     // --- FIX: Make "0ch" Logo redirect home ---
-    // Grabs the first brand button (the logo) and reloads the page to reset the view
     const logoBtn = document.querySelector('.navbar .container .navbar-brand');
     if (logoBtn) {
       logoBtn.addEventListener('click', (e) => {
@@ -70,7 +69,6 @@ window.MathJax = {
         feedContainer.innerHTML = ''; 
         
         if (isArchiveView) {
-          // --- OPTIMIZED UI: Notice the 'color: inherit' and '-webkit-appearance: none' on the button ---
           feedContainer.innerHTML = `
             <div class="card mb-4">
               <div class="card-body" style="display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
@@ -103,7 +101,7 @@ window.MathJax = {
 
           // Filter Logic
           dateInput.addEventListener('change', (event) => {
-            const selectedDate = event.target.value; // Format: YYYY-MM-DD
+            const selectedDate = event.target.value; 
             if (!selectedDate) {
               return renderItems(archiveItems, contentContainer);
             }
@@ -143,15 +141,29 @@ window.MathJax = {
 function renderItems(items, container) {
   container.innerHTML = ''; 
   const fragment = document.createDocumentFragment();
+  
+  // --- FIX: Define strict English date formatting options ---
+  const dateOptions = { 
+    year: 'numeric', 
+    month: 'short', 
+    day: 'numeric', 
+    hour: '2-digit', 
+    minute: '2-digit' 
+  };
+
   items.forEach(item => {
     const article = document.createElement('article');
     article.className = 'card mb-4';
+    
+    // --- FIX: Apply 'en-US' locale and formatting options to the date ---
+    const formattedDate = new Date(item.pubDate).toLocaleString('en-US', dateOptions);
+
     article.innerHTML = `
       <header class="card-header">
         <h2 class="card-title">
           <a href="${item.link}" target="_blank" rel="noopener noreferrer">${item.title}</a>
         </h2>
-        <time class="card-meta">${new Date(item.pubDate).toLocaleString()}</time>
+        <time class="card-meta">${formattedDate}</time>
       </header>
       <div class="card-body">
         <p>${item.contentSnippet || ''}</p>
