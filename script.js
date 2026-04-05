@@ -141,21 +141,21 @@ function renderItems(items, container) {
   container.innerHTML = ''; 
   const fragment = document.createDocumentFragment();
   
+  // Updated date options: added weekday, removed hour/minute
   const dateOptions = { 
+    weekday: 'short',
     year: 'numeric', 
     month: 'short', 
-    day: 'numeric', 
-    hour: '2-digit', 
-    minute: '2-digit' 
+    day: 'numeric'
   };
 
   items.forEach(item => {
     const article = document.createElement('article');
     article.className = 'card mb-4';
     
-    const formattedDate = new Date(item.pubDate).toLocaleString('en-US', dateOptions);
+    // Changed to toLocaleDateString and used 'en-GB' for Day-Month-Year ordering
+    const formattedDate = new Date(item.pubDate).toLocaleDateString('en-GB', dateOptions);
 
-    // Extract Authors and Subjects, falling back to default text if the data is missing
     const authors = item.author ? item.author : 'Unknown Authors';
     const subjects = (item.categories && item.categories.length > 0) 
       ? item.categories.join(', ') 
