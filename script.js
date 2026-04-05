@@ -136,113 +136,42 @@ window.MathJax = {
   }
 })();
 
-const SUBJECT_NAMES = {
-  'math.RA': 'Rings and Algebras',
-  'math.RT': 'Representation Theory',
-  'math.CT': 'Category Theory',
-  'math.CO': 'Combinatorics',
-  'math.AG': 'Algebraic Geometry',
-  'math.NT': 'Number Theory',
-  'math.OA': 'Operator Algebras',
-  'math.GR': 'Group Theory',
-  'math.LO': 'Logic',
-  'math.CA': 'Classical Analysis and ODEs',
-  'math.FA': 'Functional Analysis',
-  'math.AP': 'Analysis of PDEs',
-  'math.DS': 'Dynamical Systems',
-  'math.AC': 'Commutative Algebra',
-  'math.QA': 'Quantum Algebra'
-};
-
-function getArxivId(item) {
-  const source = item.guid || item.link || '';
-  const m = source.match(/(\d{4}\.\d{5})(v\d+)?/);
-  return m ? `arXiv:${m[1]}${m[2] || ''}` : 'arXiv';
-}
-
-function getPdfUrl(item) {
-  const link = item.link || '';
-  const m = link.match(/arxiv\.org\/abs\/(\d{4}\.\d{5})(v\d+)?/);
-  if (m) {
-    return `https://arxiv.org/pdf/${m[1]}${m[2] || ''}.pdf`;
-  }
-  return '#';
-}
-
-function getAuthors(item) {
-  if (typeof item.author === 'string' && item.author.trim()) {
-    return item.author.split(/\s*,\s*/).join(', ');
-  }
-  return '';
-}
-
-function getAbstract(item) {
-  const text = (item.content || item.description || '').trim();
-  const m = text.match(/Abstract:\s*([\s\S]*)/i);
-  if (m) {
-    return m[1].trim().replace(/\s+/g, ' ');
-  }
-  return text.replace(/\s+/g, ' ');
-}
-
-function getAnnounceType(item) {
-  const text = item.description || '';
-  const m = text.match(/Announce Type:\s*([^\n]+)/i);
-  return m ? m[1].trim() : '';
-}
-
-function getSubjects(item) {
-  if (!Array.isArray(item.categories) || item.categories.length === 0) {
-    return '';
-  }
-
-  return item.categories
-    .map((cat) => `${SUBJECT_NAMES[cat] || cat} (${cat})`)
-    .join('; ');
-}
-
+// Helper function to render items and trigger MathJax
 function renderItems(items, container) {
-  container.innerHTML = '';
+  container.innerHTML = ''; 
   const fragment = document.createDocumentFragment();
+  
+  const dateOptions = { 
+    year: 'numeric', 
+    month: 'short', 
+    day: 'numeric', 
+    hour: '2-digit', 
+    minute: '2-digit' 
+  };
 
-  items.forEach((item) => {
+  items.forEach(item => {
     const article = document.createElement('article');
     article.className = 'card mb-4';
-
-    const arxivId = getArxivId(item);
-    const pdfUrl = getPdfUrl(item);
-    const authors = getAuthors(item);
-    const abstract = getAbstract(item);
-    const announceType = getAnnounceType(item);
-    const subjects = getSubjects(item);
+    
+    const formattedDate = new Date(item.pubDate).toLocaleString('en-US', dateOptions);
 
     article.innerHTML = `
       <header class="card-header">
-        <div style="margin-bottom: 0.35rem;">
-          <a href="${item.link}" target="_blank" rel="noopener noreferrer">${arxivId}</a>
-          ${item.categories && item.categories.length > 1 ? ` (cross-listed)` : ''}
-          ${pdfUrl !== '#' ? ` [<a href="${pdfUrl}" target="_blank" rel="noopener noreferrer">pdf</a>, <a href="${item.link}" target="_blank" rel="noopener noreferrer">html</a>]` : ''}
-        </div>
         <h2 class="card-title">
-          <a href="${item.link}" target="_blank" rel="noopener noreferrer">${item.title || ''}</a>
+          <a href="${item.link}" target="_blank" rel="noopener noreferrer">${item.title}</a>
         </h2>
-        ${authors ? `<div>${authors}</div>` : ''}
+        <time class="card-meta">${formattedDate}</time>
       </header>
       <div class="card-body">
-        ${announceType ? `<p>Announce Type: ${announceType}</p>` : ''}
-        ${abstract ? `<p>${abstract}</p>` : ''}
-        ${subjects ? `<p>Subjects: ${subjects}</p>` : ''}
+        <p>${item.contentSnippet || ''}</p>
       </div>
       <footer class="card-footer">
         <small>Source: <a href="${item.__source}" target="_blank" rel="noopener noreferrer">${new URL(item.__source).hostname}</a></small>
       </footer>
     `;
-
     fragment.appendChild(article);
   });
-
   container.appendChild(fragment);
-
   if (window.MathJax?.typesetPromise) {
     window.MathJax.typesetPromise().catch(err => console.error(err));
   }
