@@ -69,7 +69,7 @@ window.MathJax = {
               <div class="card-body" style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
                 <label for="archive-date" style="margin: 0; font-weight: 600;">Filter by Date:</label>
                 <input type="date" id="archive-date" class="form-control" style="flex-grow: 1; max-width: 200px;">
-                <button id="clear-date" class="btn btn-secondary">Clear Filter</button>
+                <button id="clear-date" class="btn btn-secondary">Clear</button>
               </div>
             </div>
             <div id="archive-content"></div>
