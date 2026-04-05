@@ -32,9 +32,14 @@ window.MathJax = {
         : []
     ).sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 
-    if (liveItems.length) {
-      renderItems(liveItems, feedContainer);
+    if (!liveItems.length) {
+    feedContainer.innerHTML = '<p>No items could be loaded from any feed.</p>';
+    } else {
+    renderItems(liveItems, feedContainer);
     }
+
+    // Render live items initially
+    renderItems(liveItems, feedContainer);
 
     // --- FIX: Make "0ch" Logo redirect home ---
     const logoBtn = document.querySelector('.navbar .container .navbar-brand');
@@ -108,7 +113,9 @@ window.MathJax = {
               return itemDate === selectedDate;
             });
 
-            if (filteredItems.length > 0) {
+            if (filteredItems.length === 0) {
+              contentContainer.innerHTML = '<p style="padding: 20px;">No articles found for this date.</p>';
+            } else {
               renderItems(filteredItems, contentContainer);
             }
           });
@@ -148,31 +155,22 @@ function renderItems(items, container) {
   items.forEach(item => {
     const article = document.createElement('article');
     article.className = 'card mb-4';
-
-    const authorLinks = item.author
-      ? item.author.split(',').map(name => {
-          const trimmed = name.trim();
-          const query = encodeURIComponent(trimmed);
-          return `<a href="https://arxiv.org/search/?query=${query}&searchtype=author" target="_blank" rel="noopener noreferrer">${trimmed}</a>`;
-        }).join(', ')
-      : '';
-    const subjects = Array.isArray(item.categories) && item.categories.length
-      ? item.categories.join(', ')
-      : '';
+    
+    const formattedDate = new Date(item.pubDate).toLocaleString('en-US', dateOptions);
 
     article.innerHTML = `
       <header class="card-header">
         <h2 class="card-title">
           <a href="${item.link}" target="_blank" rel="noopener noreferrer">${item.title}</a>
         </h2>
-        ${authorLinks ? `<span class="card-meta">${authorLinks}</span>` : ''}
+        <time class="card-meta">${formattedDate}</time>
       </header>
       <div class="card-body">
         <p>${item.contentSnippet || ''}</p>
       </div>
-      ${subjects ? `<footer class="card-footer">
-        <small><strong>Subjects:</strong> ${subjects}</small>
-      </footer>` : ''}
+      <footer class="card-footer">
+        <small>Source: <a href="${item.__source}" target="_blank" rel="noopener noreferrer">${new URL(item.__source).hostname}</a></small>
+      </footer>
     `;
     fragment.appendChild(article);
   });
