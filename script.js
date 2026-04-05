@@ -111,7 +111,7 @@ window.MathJax = {
             });
 
             if (filteredItems.length === 0) {
-              contentContainer.innerHTML = '<p style="padding: 20px;">No articles found for this date.</p>';
+              contentContainer.innerHTML = '<p style="padding: 20px;">err</p>';
             } else {
               renderItems(filteredItems, contentContainer);
             }
