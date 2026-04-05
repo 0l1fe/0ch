@@ -33,8 +33,9 @@ window.MathJax = {
     ).sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 
     if (!liveItems.length) {
-      feedContainer.innerHTML = '<p>No items could be loaded from any feed.</p>';
-      return;
+    feedContainer.innerHTML = '<p>No items could be loaded from any feed.</p>';
+    } else {
+    renderItems(liveItems, feedContainer);
     }
 
     // Render live items initially
@@ -93,7 +94,7 @@ window.MathJax = {
               archiveItems = await res.json();
             } catch (err) {
               console.error("Could not load archive:", err);
-              archiveItems = liveItems; 
+              archiveItems = []; 
             }
           }
           
