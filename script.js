@@ -149,7 +149,13 @@ function renderItems(items, container) {
     const article = document.createElement('article');
     article.className = 'card mb-4';
 
-    const authors = item.author ? item.author : '';
+    const authorLinks = item.author
+      ? item.author.split(',').map(name => {
+          const trimmed = name.trim();
+          const query = encodeURIComponent(trimmed);
+          return `<a href="https://arxiv.org/search/?query=${query}&searchtype=author" target="_blank" rel="noopener noreferrer">${trimmed}</a>`;
+        }).join(', ')
+      : '';
     const subjects = Array.isArray(item.categories) && item.categories.length
       ? item.categories.join(', ')
       : '';
@@ -159,13 +165,13 @@ function renderItems(items, container) {
         <h2 class="card-title">
           <a href="${item.link}" target="_blank" rel="noopener noreferrer">${item.title}</a>
         </h2>
-        ${authors ? `<span class="card-meta">${authors}</span>` : ''}
+        ${authorLinks ? `<span class="card-meta">${authorLinks}</span>` : ''}
       </header>
       <div class="card-body">
         <p>${item.contentSnippet || ''}</p>
       </div>
       ${subjects ? `<footer class="card-footer">
-        <small>${subjects}</small>
+        <small><strong>Subjects:</strong> ${subjects}</small>
       </footer>` : ''}
     `;
     fragment.appendChild(article);
