@@ -33,13 +33,10 @@ window.MathJax = {
     ).sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 
     if (!liveItems.length) {
-    feedContainer.innerHTML = '<p>No items could be loaded from any feed.</p>';
+      feedContainer.innerHTML = '<p>No items could be loaded from any feed.</p>';
     } else {
-    renderItems(liveItems, feedContainer);
+      renderItems(liveItems, feedContainer);
     }
-
-    // Render live items initially
-    renderItems(liveItems, feedContainer);
 
     // --- FIX: Make "0ch" Logo redirect home ---
     const logoBtn = document.querySelector('.navbar .container .navbar-brand');
@@ -158,6 +155,12 @@ function renderItems(items, container) {
     
     const formattedDate = new Date(item.pubDate).toLocaleString('en-US', dateOptions);
 
+    // Extract Authors and Subjects, falling back to default text if the data is missing
+    const authors = item.author ? item.author : 'Unknown Authors';
+    const subjects = (item.categories && item.categories.length > 0) 
+      ? item.categories.join(', ') 
+      : 'No subjects provided';
+
     article.innerHTML = `
       <header class="card-header">
         <h2 class="card-title">
@@ -169,12 +172,15 @@ function renderItems(items, container) {
         <p>${item.contentSnippet || ''}</p>
       </div>
       <footer class="card-footer">
-        <small>Source: <a href="${item.__source}" target="_blank" rel="noopener noreferrer">${new URL(item.__source).hostname}</a></small>
+        <small><strong>Authors:</strong> ${authors}</small><br>
+        <small><strong>Subjects:</strong> ${subjects}</small>
       </footer>
     `;
     fragment.appendChild(article);
   });
+  
   container.appendChild(fragment);
+  
   if (window.MathJax?.typesetPromise) {
     window.MathJax.typesetPromise().catch(err => console.error(err));
   }
