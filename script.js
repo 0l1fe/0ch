@@ -15,6 +15,34 @@ window.MathJax = {
   document.head.appendChild(script);
 })();
 
+// Inject date input styling dynamically so we don't have to touch style.css
+(function injectDateStyles() {
+  if (!document.getElementById('date-input-style')) {
+    const style = document.createElement('style');
+    style.id = 'date-input-style';
+    style.textContent = `
+      input[type="date"] {
+          color: var(--input-color);
+          background: var(--input-background);
+          border: var(--input-border);
+          padding: 3px;
+          line-height: 20px;
+          width: 250px;
+          font-size: 99%;
+          margin-top: 5px;
+          appearance: none;
+      }
+      input[type="date"]:focus {
+          color: var(--input-focus-color);
+          border-color: var(--input-focus-border-color);
+          outline: 0;
+          box-shadow: var(--input-focus-box-shadow);
+      }
+    `;
+    document.head.appendChild(style);
+  }
+})();
+
 (async function main() {
   const feedUrls = ['http://rss.arxiv.org/rss/math.RA/'];
   const proxyBase = 'https://api.rss2json.com/v1/api.json?rss_url=';
@@ -65,15 +93,15 @@ window.MathJax = {
         feedContainer.innerHTML = ''; 
         
         if (isArchiveView) {
-          // --- FIX: Changed <label> to <span> to remove click behavior ---
+          // Used native CSS elements (fieldset, legend, .button) for styling
           feedContainer.innerHTML = `
-            <div class="card mb-4">
-              <div class="card-body" style="display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
-                <span style="margin: 0; font-weight: bold; font-family: inherit;">Filter by Date:</span>
-                <input type="date" id="archive-date" style="padding: 6px 12px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; color: inherit; flex-grow: 1; max-width: 250px;">
-                <button id="clear-date" style="padding: 6px 16px; cursor: pointer; border: 1px solid #ccc; background: transparent; border-radius: 4px; font-family: inherit; color: inherit; -webkit-appearance: none; appearance: none;">Clear Filter</button>
+            <fieldset>
+              <legend>Filter by Date</legend>
+              <div class="form-label-row" style="align-items: center; gap: 15px;">
+                <input type="date" id="archive-date">
+                <button id="clear-date" class="button">Clear Filter</button>
               </div>
-            </div>
+            </fieldset>
             <div id="archive-content"></div>
           `;
           
@@ -110,6 +138,8 @@ window.MathJax = {
 
             if (filteredItems.length > 0) {
               renderItems(filteredItems, contentContainer);
+            } else {
+              contentContainer.innerHTML = '<p>No items found for this date.</p>';
             }
           });
 
@@ -156,9 +186,13 @@ function renderItems(items, container) {
           return `<a href="https://arxiv.org/search/?query=${query}&searchtype=author" target="_blank" rel="noopener noreferrer">${trimmed}</a>`;
         }).join(', ')
       : '';
+      
     const subjects = Array.isArray(item.categories) && item.categories.length
       ? item.categories.join(', ')
       : '';
+
+    // Extract and format the date
+    const pubDate = item.pubDate ? new Date(item.pubDate).toLocaleDateString(undefined, dateOptions) : '';
 
     article.innerHTML = `
       <header class="card-header">
@@ -166,6 +200,7 @@ function renderItems(items, container) {
           <a href="${item.link}" target="_blank" rel="noopener noreferrer">${item.title}</a>
         </h2>
         ${authorLinks ? `<span class="card-meta">${authorLinks}</span>` : ''}
+        ${pubDate ? `<div class="entry-date" style="margin-top: 5px;">${pubDate}</div>` : ''}
       </header>
       <div class="card-body">
         <p>${item.contentSnippet || ''}</p>
