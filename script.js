@@ -32,14 +32,11 @@ window.MathJax = {
         : []
     ).sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 
-    if (!liveItems.length) {
-    feedContainer.innerHTML = '<p>No items could be loaded from any feed.</p>';
+    if (liveItems.length) {
+    renderItems(liveItems, feedContainer);
     } else {
-    renderItems(liveItems, feedContainer);
+    feedContainer.innerHTML = '<p>No items could be loaded from any feed.</p>';
     }
-
-    // Render live items initially
-    renderItems(liveItems, feedContainer);
 
     // --- FIX: Make "0ch" Logo redirect home ---
     const logoBtn = document.querySelector('.navbar .container .navbar-brand');
