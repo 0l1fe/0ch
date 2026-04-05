@@ -33,9 +33,7 @@ window.MathJax = {
     ).sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 
     if (liveItems.length) {
-    renderItems(liveItems, feedContainer);
-    } else {
-    feedContainer.innerHTML = '<p>No items could be loaded from any feed.</p>';
+      renderItems(liveItems, feedContainer);
     }
 
     // --- FIX: Make "0ch" Logo redirect home ---
@@ -110,9 +108,7 @@ window.MathJax = {
               return itemDate === selectedDate;
             });
 
-            if (filteredItems.length === 0) {
-              contentContainer.innerHTML = '<p style="padding: 20px;">No articles found for this date.</p>';
-            } else {
+            if (filteredItems.length > 0) {
               renderItems(filteredItems, contentContainer);
             }
           });
@@ -152,22 +148,25 @@ function renderItems(items, container) {
   items.forEach(item => {
     const article = document.createElement('article');
     article.className = 'card mb-4';
-    
-    const formattedDate = new Date(item.pubDate).toLocaleString('en-US', dateOptions);
+
+    const authors = item.author ? item.author : '';
+    const subjects = Array.isArray(item.categories) && item.categories.length
+      ? item.categories.join(', ')
+      : '';
 
     article.innerHTML = `
       <header class="card-header">
         <h2 class="card-title">
           <a href="${item.link}" target="_blank" rel="noopener noreferrer">${item.title}</a>
         </h2>
-        <time class="card-meta">${formattedDate}</time>
+        ${authors ? `<span class="card-meta">${authors}</span>` : ''}
       </header>
       <div class="card-body">
         <p>${item.contentSnippet || ''}</p>
       </div>
-      <footer class="card-footer">
-        <small>Source: <a href="${item.__source}" target="_blank" rel="noopener noreferrer">${new URL(item.__source).hostname}</a></small>
-      </footer>
+      ${subjects ? `<footer class="card-footer">
+        <small>${subjects}</small>
+      </footer>` : ''}
     `;
     fragment.appendChild(article);
   });
