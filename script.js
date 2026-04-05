@@ -33,7 +33,7 @@ window.MathJax = {
     ).sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 
     if (!liveItems.length) {
-      feedContainer.innerHTML = '<p>No items could be loaded from any feed.</p>';
+      feedContainer.innerHTML = '<p>err</p>';
     } else {
       renderItems(liveItems, feedContainer);
     }
@@ -70,10 +70,10 @@ window.MathJax = {
           // --- FIX: Changed <label> to <span> to remove click behavior ---
           feedContainer.innerHTML = `
             <div class="card mb-4">
-              <div class="card-body" style="display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
-                <span style="margin: 0; font-weight: bold; font-family: inherit;">Filter by Date:</span>
-                <input type="date" id="archive-date" style="padding: 6px 12px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; color: inherit; flex-grow: 1; max-width: 250px;">
-                <button id="clear-date" style="padding: 6px 16px; cursor: pointer; border: 1px solid #ccc; background: transparent; border-radius: 4px; font-family: inherit; color: inherit; -webkit-appearance: none; appearance: none;">Clear Filter</button>
+              <div class="card-body" style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+                <label for="archive-date" style="margin: 0; font-weight: 600;">Filter by Date:</label>
+                <input type="date" id="archive-date" class="form-control" style="flex-grow: 1; max-width: 200px;">
+                <button id="clear-date" class="btn btn-secondary">Clear Filter</button>
               </div>
             </div>
             <div id="archive-content"></div>
@@ -90,7 +90,7 @@ window.MathJax = {
               const res = await fetch('./archive.json');
               archiveItems = await res.json();
             } catch (err) {
-              console.error("Could not load archive:", err);
+              console.error("err");
               archiveItems = []; 
             }
           }
@@ -131,8 +131,8 @@ window.MathJax = {
     }
 
   } catch (error) {
-    feedContainer.innerHTML = `<p style="color:red">Error loading feeds: ${error.message}</p>`;
-    console.error('Feed fetch error:', error);
+    feedContainer.innerHTML = `<p>err</p>`;
+    console.error('err');
   }
 })();
 
@@ -182,6 +182,6 @@ function renderItems(items, container) {
   container.appendChild(fragment);
   
   if (window.MathJax?.typesetPromise) {
-    window.MathJax.typesetPromise().catch(err => console.error(err));
+    window.MathJax.typesetPromise().catch(err => console.error('err'));
   }
 }
