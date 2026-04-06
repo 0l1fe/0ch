@@ -97,7 +97,9 @@ window.MathJax = {
             }
 
             const filteredItems = archiveItems.filter(item => {
-              const itemDate = new Date(item.pubDate).toISOString().split('T')[0];
+              // Use the date portion of pubDate string directly (format: "YYYY-MM-DD HH:MM:SS")
+              // avoids timezone shifts from toISOString() which always outputs UTC
+              const itemDate = item.pubDate ? item.pubDate.split(' ')[0] : '';
               return itemDate === selectedDate;
             });
 
