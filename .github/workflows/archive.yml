@@ -3,7 +3,7 @@ name: Update RSS Archive
 # This controls when the action will run
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs at midnight UTC every day
+    - cron: '0 5 * * *' # Runs at 5 AM UTC every day (after arXiv posts at 4 AM UTC)
   workflow_dispatch: # Allows you to run this manually from the Actions tab
 
 jobs:
