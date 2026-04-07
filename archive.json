@@ -1,5 +1,153 @@
 [
   {
+    "title": "Similar submodules of projective modules",
+    "pubDate": "2026-04-07 04:00:00",
+    "link": "https://arxiv.org/abs/2604.03243",
+    "guid": "oai:arXiv.org:2604.03243v1",
+    "author": "Alborz Azarang",
+    "thumbnail": "",
+    "description": "arXiv:2604.03243v1 Announce Type: new \nAbstract: We introduce a similarity relation between submodules of a module $M$ over a ring $R$, extending the classical notion of similarity for right ideals. Focusing on (faithfully) projective modules, we establish a sharp lower bound for the number of maximal submodules: if $N$ is a maximal submodule of $M$, then either $N$ is fully invariant or $N$ is similar to at least $1+|S|$ distinct maximal submodules, where $S$ is the eigenring of $N$; in particular, $|{\\rm Max}(M)|\\geq 1+|S|\\geq 3$ in the latter case. For projective modules, we construct a canonical one-to-one map from ${\\rm Max}(M)$ into ${\\rm Max}_r({\\rm End}_R(M))$. When $M$ is faithfully projective and ${\\rm End}_R(M)$ is right Artinian, we prove that $M$ has finite length and decomposes into a direct sum of local summands. Conversely, if $M$ is a projective right $R$-module with finite length, then $E_E$ has finite length with $\\ell(E_E)\\leq \\ell(M_R)$; moreover, if $M$ is a faithfully projective $R$-module, then $\\ell(E_E)=\\ell(M_R)$; conversely, if $\\ell(E_E)=\\ell(M_R)$ holds, then $M$ is slightly compressible. These results are applied to obtain lower bounds on the number of maximal one-sided ideals that are not two-sided, with explicit consequences for matrix rings over infinite algebras.",
+    "content": "arXiv:2604.03243v1 Announce Type: new \nAbstract: We introduce a similarity relation between submodules of a module $M$ over a ring $R$, extending the classical notion of similarity for right ideals. Focusing on (faithfully) projective modules, we establish a sharp lower bound for the number of maximal submodules: if $N$ is a maximal submodule of $M$, then either $N$ is fully invariant or $N$ is similar to at least $1+|S|$ distinct maximal submodules, where $S$ is the eigenring of $N$; in particular, $|{\\rm Max}(M)|\\geq 1+|S|\\geq 3$ in the latter case. For projective modules, we construct a canonical one-to-one map from ${\\rm Max}(M)$ into ${\\rm Max}_r({\\rm End}_R(M))$. When $M$ is faithfully projective and ${\\rm End}_R(M)$ is right Artinian, we prove that $M$ has finite length and decomposes into a direct sum of local summands. Conversely, if $M$ is a projective right $R$-module with finite length, then $E_E$ has finite length with $\\ell(E_E)\\leq \\ell(M_R)$; moreover, if $M$ is a faithfully projective $R$-module, then $\\ell(E_E)=\\ell(M_R)$; conversely, if $\\ell(E_E)=\\ell(M_R)$ holds, then $M$ is slightly compressible. These results are applied to obtain lower bounds on the number of maximal one-sided ideals that are not two-sided, with explicit consequences for matrix rings over infinite algebras.",
+    "enclosure": {},
+    "categories": [
+      "math.RA",
+      "math.RT"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "A formal Lie correspondence",
+    "pubDate": "2026-04-07 04:00:00",
+    "link": "https://arxiv.org/abs/2604.04224",
+    "guid": "oai:arXiv.org:2604.04224v1",
+    "author": "Vincent Bagayoko",
+    "thumbnail": "",
+    "description": "arXiv:2604.04224v1 Announce Type: new \nAbstract: We establish an equivalence between categories of 'formally nilpotent' Lie algebras and exponential groups in characteristic zero. It extends the equivalences of Mal'cev, Lazard, Quillen and Warfield, and applies to groups under composition of generalized formal series or automorphisms of algebras of generalized formal series. We obtain first-order transfer results from finite dimensional nilpotent objects to formally nilpotent ones. We give applications to solving equations over groups, to the theory of nilpotent exponential groups as per Miasnikov-Remeslennikov, and to definability problems in certain groups of formal series.",
+    "content": "arXiv:2604.04224v1 Announce Type: new \nAbstract: We establish an equivalence between categories of 'formally nilpotent' Lie algebras and exponential groups in characteristic zero. It extends the equivalences of Mal'cev, Lazard, Quillen and Warfield, and applies to groups under composition of generalized formal series or automorphisms of algebras of generalized formal series. We obtain first-order transfer results from finite dimensional nilpotent objects to formally nilpotent ones. We give applications to solving equations over groups, to the theory of nilpotent exponential groups as per Miasnikov-Remeslennikov, and to definability problems in certain groups of formal series.",
+    "enclosure": {},
+    "categories": [
+      "math.RA",
+      "math.GR",
+      "math.LO"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Profinite tensor powers",
+    "pubDate": "2026-04-07 04:00:00",
+    "link": "https://arxiv.org/abs/2604.04367",
+    "guid": "oai:arXiv.org:2604.04367v1",
+    "author": "David Treumann, C. -M. Michael Wong",
+    "thumbnail": "",
+    "description": "arXiv:2604.04367v1 Announce Type: new \nAbstract: We discuss the problem of defining a tensor product of profinitely many copies of a vector space $V$, and propose a definition $\\bigotimes_X^{\\mathrm{mcc}} V$ in the special situation that (1) $V$ is finite-dimensional over $\\mathbf{F}_2$, and (2) the profinite $X$ indexing the tensor factors is acted on with finitely many orbits by a pro-$2$-group. The \"mcc\" on the tensor sign stands for \"magnetized and conditionally convergent.\" A variant construction makes sense when $V$ is a bimodule over a ring of the form $\\mathbf{F}_2 \\times \\cdots \\times \\mathbf{F}_2$, and the index set $X$ has the profinite version of a cyclic order. The definition organizes some computations in Heegaard Floer homology: it can be pitched as a computation of the Heegaard Floer theory of some pro-$3$-manifolds, though we do not know how to define such a thing.",
+    "content": "arXiv:2604.04367v1 Announce Type: new \nAbstract: We discuss the problem of defining a tensor product of profinitely many copies of a vector space $V$, and propose a definition $\\bigotimes_X^{\\mathrm{mcc}} V$ in the special situation that (1) $V$ is finite-dimensional over $\\mathbf{F}_2$, and (2) the profinite $X$ indexing the tensor factors is acted on with finitely many orbits by a pro-$2$-group. The \"mcc\" on the tensor sign stands for \"magnetized and conditionally convergent.\" A variant construction makes sense when $V$ is a bimodule over a ring of the form $\\mathbf{F}_2 \\times \\cdots \\times \\mathbf{F}_2$, and the index set $X$ has the profinite version of a cyclic order. The definition organizes some computations in Heegaard Floer homology: it can be pitched as a computation of the Heegaard Floer theory of some pro-$3$-manifolds, though we do not know how to define such a thing.",
+    "enclosure": {},
+    "categories": [
+      "math.RA",
+      "math.GT"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "On the structure of approximate rings",
+    "pubDate": "2026-04-07 04:00:00",
+    "link": "https://arxiv.org/abs/2604.04581",
+    "guid": "oai:arXiv.org:2604.04581v1",
+    "author": "Krzysztof Krupi\\'nski, Simon Machado",
+    "thumbnail": "",
+    "description": "arXiv:2604.04581v1 Announce Type: new \nAbstract: By a [$K$-]approximate subring of a ring we mean an additively symmetric subset $X$ such that $X \\cdot X \\cup (X + X)$ is covered by finitely many [resp.\\ $K$] additive translates of $X$.\n  We prove a structure theorem for finite approximate subrings. Our aim is to develop a general framework for the sum-product phenomenon that applies uniformly across arbitrary rings. The main result identifies nilpotent quotients as the fundamental obstruction to growth under both addition and multiplication. Another application of the main structure theorem is a ring-theoretic counterpart of Gromov's theorem on groups of polynomial growth.\n  The principal tool in the proof is the existence of definable locally compact models for arbitrary approximate subrings from [Kru24].\n  This existence theorem extends beyond the finite (and pseudofinite) setting. To illustrate the scope of the method, we also establish a structure theorem for uniformly discrete approximate subrings of semi-simple real algebras, generalizing a classical sum-product result of Meyer.",
+    "content": "arXiv:2604.04581v1 Announce Type: new \nAbstract: By a [$K$-]approximate subring of a ring we mean an additively symmetric subset $X$ such that $X \\cdot X \\cup (X + X)$ is covered by finitely many [resp.\\ $K$] additive translates of $X$.\n  We prove a structure theorem for finite approximate subrings. Our aim is to develop a general framework for the sum-product phenomenon that applies uniformly across arbitrary rings. The main result identifies nilpotent quotients as the fundamental obstruction to growth under both addition and multiplication. Another application of the main structure theorem is a ring-theoretic counterpart of Gromov's theorem on groups of polynomial growth.\n  The principal tool in the proof is the existence of definable locally compact models for arbitrary approximate subrings from [Kru24].\n  This existence theorem extends beyond the finite (and pseudofinite) setting. To illustrate the scope of the method, we also establish a structure theorem for uniformly discrete approximate subrings of semi-simple real algebras, generalizing a classical sum-product result of Meyer.",
+    "enclosure": {},
+    "categories": [
+      "math.RA",
+      "math.CO",
+      "math.LO"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "The first fatal axiom for weakened sequential products on finite MV-effect algebras: Local obstruction, exact low-rank classification, and the rank-one boundary case",
+    "pubDate": "2026-04-07 04:00:00",
+    "link": "https://arxiv.org/abs/2604.03324",
+    "guid": "oai:arXiv.org:2604.03324v1",
+    "author": "Joaquim Reizi Higuchi",
+    "thumbnail": "",
+    "description": "arXiv:2604.03324v1 Announce Type: cross \nAbstract: We study total binary operations on effect algebras obtained by truncating the Gudder-Greechie axiom package for a sequential product. The point is not to reprove the known nonexistence of non-Boolean full sequential products on finite chains, but to determine, axiom by axiom, where finite MV-effect algebras first fail. We prove two structural facts valid on every effect algebra. First, the operation \\sigma_E(a,b) = 0 if a=0, and b if a \\neq 0, satisfies (S1)-(S3), so (S3) is never fatal by itself. Second, any operation satisfying (S1)-(S4) already has the right-unit property a \\circ 1 = a, even without (S5). From this we derive a local obstruction theorem: if an effect algebra contains an atom of finite isotropic index at least 2, then it admits no (S1)-(S4) operation. Consequently, a finite MV-effect algebra admits such an operation if and only if it is Boolean. In this precise sense, (S4) is the first fatal axiom on finite MV-effect algebras. On the constructive side, let E_u = [0,u] \\subseteq Z^r be the simplicial interval representation of a finite MV-effect algebra. We show that additive maps E_u \\to E_v are exactly the restrictions of positive group homomorphisms Z^r \\to Z^s, equivalently maps x \\mapsto Mx given by nonnegative integer matrices with Mu \\le v. This yields a complete classification of (S1)+(S2) operations by row-wise subunital matrices. We then solve the first genuinely higher-rank (S1)-(S3) problem: on the rank-two Boolean algebra B_2 = E_{(1,1)} \\cong C_1^2, all such operations are classified and there are exactly 34. Thus the finite-chain collapse at (S3) is a rank-one boundary phenomenon, whereas on finite MV-effect algebras the sharp threshold for nonexistence occurs exactly at (S4).",
+    "content": "arXiv:2604.03324v1 Announce Type: cross \nAbstract: We study total binary operations on effect algebras obtained by truncating the Gudder-Greechie axiom package for a sequential product. The point is not to reprove the known nonexistence of non-Boolean full sequential products on finite chains, but to determine, axiom by axiom, where finite MV-effect algebras first fail. We prove two structural facts valid on every effect algebra. First, the operation \\sigma_E(a,b) = 0 if a=0, and b if a \\neq 0, satisfies (S1)-(S3), so (S3) is never fatal by itself. Second, any operation satisfying (S1)-(S4) already has the right-unit property a \\circ 1 = a, even without (S5). From this we derive a local obstruction theorem: if an effect algebra contains an atom of finite isotropic index at least 2, then it admits no (S1)-(S4) operation. Consequently, a finite MV-effect algebra admits such an operation if and only if it is Boolean. In this precise sense, (S4) is the first fatal axiom on finite MV-effect algebras. On the constructive side, let E_u = [0,u] \\subseteq Z^r be the simplicial interval representation of a finite MV-effect algebra. We show that additive maps E_u \\to E_v are exactly the restrictions of positive group homomorphisms Z^r \\to Z^s, equivalently maps x \\mapsto Mx given by nonnegative integer matrices with Mu \\le v. This yields a complete classification of (S1)+(S2) operations by row-wise subunital matrices. We then solve the first genuinely higher-rank (S1)-(S3) problem: on the rank-two Boolean algebra B_2 = E_{(1,1)} \\cong C_1^2, all such operations are classified and there are exactly 34. Thus the finite-chain collapse at (S3) is a rank-one boundary phenomenon, whereas on finite MV-effect algebras the sharp threshold for nonexistence occurs exactly at (S4).",
+    "enclosure": {},
+    "categories": [
+      "math.LO",
+      "cs.LO",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Independent domination polynomial of comaximal graphs of commutative rings",
+    "pubDate": "2026-04-07 04:00:00",
+    "link": "https://arxiv.org/abs/2604.03966",
+    "guid": "oai:arXiv.org:2604.03966v1",
+    "author": "Bilal Ahmad Rather",
+    "thumbnail": "",
+    "description": "arXiv:2604.03966v1 Announce Type: cross \nAbstract: The comaximal graph $ \\Gamma(R) $ of a commutative ring $R$ is a simple graph with vertex set $ R $ and two distinct vertices $ a $ and $b $ of $ \\Gamma(R) $ are adjacent if and only if $ aR+bR=R $, where $ aR $ is the ideal generated by $ a $ in $ R $. In this article, the independent domination polynomial $ D_{i}(\\Gamma(\\mathbb{Z}_{n}),x) $ of $ \\Gamma(\\mathbb{Z}_{n}) $ is discussed, along with its unimodal and log-concave properties for certain values of $n$. Some auxiliary results related to $D_{i}(\\Gamma(\\mathbb{Z}_{n}),x)$ are presented in terms of their zeros. In addition, we determine the independence polynomial $ I(\\Gamma(\\mathbb{Z}_{n}),x ) $ of $ \\Gamma(\\mathbb{Z}_{n}) $ for special values of $n$ and provide a general result associated with it. The bounds for the zero of the polynomial $ I(\\Gamma(\\mathbb{Z}_{n}),x ) $ are established, and their log-concave and unimodal properties are examined.",
+    "content": "arXiv:2604.03966v1 Announce Type: cross \nAbstract: The comaximal graph $ \\Gamma(R) $ of a commutative ring $R$ is a simple graph with vertex set $ R $ and two distinct vertices $ a $ and $b $ of $ \\Gamma(R) $ are adjacent if and only if $ aR+bR=R $, where $ aR $ is the ideal generated by $ a $ in $ R $. In this article, the independent domination polynomial $ D_{i}(\\Gamma(\\mathbb{Z}_{n}),x) $ of $ \\Gamma(\\mathbb{Z}_{n}) $ is discussed, along with its unimodal and log-concave properties for certain values of $n$. Some auxiliary results related to $D_{i}(\\Gamma(\\mathbb{Z}_{n}),x)$ are presented in terms of their zeros. In addition, we determine the independence polynomial $ I(\\Gamma(\\mathbb{Z}_{n}),x ) $ of $ \\Gamma(\\mathbb{Z}_{n}) $ for special values of $n$ and provide a general result associated with it. The bounds for the zero of the polynomial $ I(\\Gamma(\\mathbb{Z}_{n}),x ) $ are established, and their log-concave and unimodal properties are examined.",
+    "enclosure": {},
+    "categories": [
+      "math.CO",
+      "cs.DM",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Drinfeld-Xu bialgebroid 2-cocycles twist the antipode",
+    "pubDate": "2026-04-07 04:00:00",
+    "link": "https://arxiv.org/abs/2604.04813",
+    "guid": "oai:arXiv.org:2604.04813v1",
+    "author": "Zoran \\v{S}koda",
+    "thumbnail": "",
+    "description": "arXiv:2604.04813v1 Announce Type: cross \nAbstract: Ping Xu generalized Drinfeld 2-cocycles from bialgebras to associative bialgebroids over noncommutative base algebras. Any counital Drinfeld--Xu 2-cocycle twists the base algebra of the bialgebroid and a comultiplication on the total algebra, obtaining a new, twisted bialgebroid. Antipodes for bialgebroids have been considered, but finding a general way to twist the antipode, which is straightforward in the Hopf algebra case, appeared somewhat elusive. In this article, we prove that if an invertible antipode $S$ for the original bialgebroid exists, and another expression $V_F$ depending on the 2-cocycle $F$ is invertible, then the expected conjugation formula $S_F(-) = V_F^{-1} S(-) V_F$ indeed produces an invertible antipode $S_F$ for the twisted bialgebroid.",
+    "content": "arXiv:2604.04813v1 Announce Type: cross \nAbstract: Ping Xu generalized Drinfeld 2-cocycles from bialgebras to associative bialgebroids over noncommutative base algebras. Any counital Drinfeld--Xu 2-cocycle twists the base algebra of the bialgebroid and a comultiplication on the total algebra, obtaining a new, twisted bialgebroid. Antipodes for bialgebroids have been considered, but finding a general way to twist the antipode, which is straightforward in the Hopf algebra case, appeared somewhat elusive. In this article, we prove that if an invertible antipode $S$ for the original bialgebroid exists, and another expression $V_F$ depending on the 2-cocycle $F$ is invertible, then the expected conjugation formula $S_F(-) = V_F^{-1} S(-) V_F$ indeed produces an invertible antipode $S_F$ for the twisted bialgebroid.",
+    "enclosure": {},
+    "categories": [
+      "math.QA",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Dual spaces of lattices and semidistributive lattices",
+    "pubDate": "2026-04-07 04:00:00",
+    "link": "https://arxiv.org/abs/2509.04417",
+    "guid": "oai:arXiv.org:2509.04417v2",
+    "author": "Andrew Craig, Miroslav Haviar, Jos\\'e S\\~ao Jo\\~ao",
+    "thumbnail": "",
+    "description": "arXiv:2509.04417v2 Announce Type: replace \nAbstract: Birkhoff's 1937 dual representation of finite distributive lattices via finite posets was in 1970 extended to a dual representation of arbitrary distributive lattices via compact totally order-disconnected topological spaces by Priestley. This result enabled the development of natural duality theory in the 1980s by Davey and Werner, later on also in collaboration with Clark and Priestley. In 1978 Urquhart extended Priestley's representation to general lattices via compact doubly quasi-ordered topological spaces (L-spaces). In 1995 Plo\\v{s}\\v{c}ica presented Urquhart's representation in the spirit of natural duality theory by replacing, on the dual side, Urquhart's two quasiorders with a digraph relation generalising Priestley's order relation. In this paper we translate, following the spirit of natural duality theory, Urquhart's L-spaces into newly introduced \\emph{Plo\\v{s}\\v{c}ica spaces}. We then prove that every Plo\\v{s}\\v{c}ica space is the dual space of some general lattice. Based on the authors' 2022 characterisation of finite join and meet semidistributive lattices via their dual digraphs, we initiate a study of general (possibly infinite) join and meet semidistributive lattices via their dual digraphs. We illustrate our results on examples and formulate three open problems.",
+    "content": "arXiv:2509.04417v2 Announce Type: replace \nAbstract: Birkhoff's 1937 dual representation of finite distributive lattices via finite posets was in 1970 extended to a dual representation of arbitrary distributive lattices via compact totally order-disconnected topological spaces by Priestley. This result enabled the development of natural duality theory in the 1980s by Davey and Werner, later on also in collaboration with Clark and Priestley. In 1978 Urquhart extended Priestley's representation to general lattices via compact doubly quasi-ordered topological spaces (L-spaces). In 1995 Plo\\v{s}\\v{c}ica presented Urquhart's representation in the spirit of natural duality theory by replacing, on the dual side, Urquhart's two quasiorders with a digraph relation generalising Priestley's order relation. In this paper we translate, following the spirit of natural duality theory, Urquhart's L-spaces into newly introduced \\emph{Plo\\v{s}\\v{c}ica spaces}. We then prove that every Plo\\v{s}\\v{c}ica space is the dual space of some general lattice. Based on the authors' 2022 characterisation of finite join and meet semidistributive lattices via their dual digraphs, we initiate a study of general (possibly infinite) join and meet semidistributive lattices via their dual digraphs. We illustrate our results on examples and formulate three open problems.",
+    "enclosure": {},
+    "categories": [
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Homomorphisms of topological rings and change-of-scalar functors",
+    "pubDate": "2026-04-07 04:00:00",
+    "link": "https://arxiv.org/abs/2603.15048",
+    "guid": "oai:arXiv.org:2603.15048v2",
+    "author": "Leonid Positselski",
+    "thumbnail": "",
+    "description": "arXiv:2603.15048v2 Announce Type: replace \nAbstract: We consider homomorphisms of complete, separated right or two-sided linear topological rings with countable bases of neighborhoods of zero $\\mathfrak f\\colon\\mathfrak R\\to\\mathfrak S$. Taut maps of right linear topological rings, strongly right taut maps of two-sided linear topological rings, left proflat continuous ring maps, and topological ring epimorphisms are discussed. For a left proflat topological ring epimorphism $\\mathfrak f$, we show that the functor of restriction of scalars on the categories of left contramodules $\\mathfrak f_\\sharp\\colon\\mathfrak S{-}\\mathsf{Contra}\\longrightarrow\\mathfrak R{-}\\mathsf{Contra}$ is fully faithful. Assuming that the contramodule-to-module forgetful functor $\\mathfrak R{-}\\mathsf{Contra}\\longrightarrow\\mathfrak R{-}\\mathsf{Mod}$ is fully faithful and the topological ring map $\\mathfrak f$ is left proflat, we prove that the commutative square of forgetful functors between the left contramodule and module categories over $\\mathfrak S$ and $\\mathfrak R$ is a pseudopullback diagram. This provides a description of the essential image of $\\mathfrak f_\\sharp$ under the conjunction of the respective assumptions. The left adjoint functor to $\\mathfrak f_\\sharp$ always exists, but is not exact even when $\\mathfrak f$ is (pro)flat. A right adjont functor to $\\mathfrak f_\\sharp$ does not always exist, but for a left proflat map $\\mathfrak f$ we construct it explicitly and show that it has good exactness properties. This work is motivated by the theory of contraherent cosheaves of contramodules on formal schemes.",
+    "content": "arXiv:2603.15048v2 Announce Type: replace \nAbstract: We consider homomorphisms of complete, separated right or two-sided linear topological rings with countable bases of neighborhoods of zero $\\mathfrak f\\colon\\mathfrak R\\to\\mathfrak S$. Taut maps of right linear topological rings, strongly right taut maps of two-sided linear topological rings, left proflat continuous ring maps, and topological ring epimorphisms are discussed. For a left proflat topological ring epimorphism $\\mathfrak f$, we show that the functor of restriction of scalars on the categories of left contramodules $\\mathfrak f_\\sharp\\colon\\mathfrak S{-}\\mathsf{Contra}\\longrightarrow\\mathfrak R{-}\\mathsf{Contra}$ is fully faithful. Assuming that the contramodule-to-module forgetful functor $\\mathfrak R{-}\\mathsf{Contra}\\longrightarrow\\mathfrak R{-}\\mathsf{Mod}$ is fully faithful and the topological ring map $\\mathfrak f$ is left proflat, we prove that the commutative square of forgetful functors between the left contramodule and module categories over $\\mathfrak S$ and $\\mathfrak R$ is a pseudopullback diagram. This provides a description of the essential image of $\\mathfrak f_\\sharp$ under the conjunction of the respective assumptions. The left adjoint functor to $\\mathfrak f_\\sharp$ always exists, but is not exact even when $\\mathfrak f$ is (pro)flat. A right adjont functor to $\\mathfrak f_\\sharp$ does not always exist, but for a left proflat map $\\mathfrak f$ we construct it explicitly and show that it has good exactness properties. This work is motivated by the theory of contraherent cosheaves of contramodules on formal schemes.",
+    "enclosure": {},
+    "categories": [
+      "math.RA",
+      "math.AG",
+      "math.CT"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
     "title": "A note on explicit homological invariants of graded double Ore extensions",
     "pubDate": "2026-04-06 04:00:00",
     "link": "https://arxiv.org/abs/2604.02456",
