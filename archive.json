@@ -1,5 +1,86 @@
 [
   {
+    "title": "A note on even Clifford algebras of skew quadric hypersurfaces",
+    "pubDate": "2026-04-09 04:00:00",
+    "link": "https://arxiv.org/abs/2604.07127",
+    "guid": "oai:arXiv.org:2604.07127v1",
+    "author": "Tomoya Oshio, Kenta Ueyama",
+    "thumbnail": "",
+    "description": "arXiv:2604.07127v1 Announce Type: new \nAbstract: Let $S_\\alpha = k\\langle x_1,\\dots,x_n\\rangle /(x_i x_j - \\alpha_{ij} x_j x_i)$ be a standard graded skew polynomial algebra over an algebraically closed field $k$ of characteristic not equal to $2$. We show the following results.\n  When $n$ is odd and $f = x_1x_2 + \\cdots + x_{n-2}x_{n-1} + x_n^2$ is a normal element of $S_\\alpha$, the even Clifford algebra of the skew quadric hypersurface $S_\\alpha/(f)$ is isomorphic to a full matrix algebra $M_{2^{(n-1)/2}}(k)$, and the stable category $\\underline{\\mathsf{CM}}^{\\mathbb Z}(S_\\alpha/(f))$ of graded maximal Cohen-Macaulay modules over $S_\\alpha/(f)$ is triangle equivalent to the derived category $\\mathsf{D}^b(\\mathsf{mod}\\,k)$.\n  When $n$ is even and $f = x_1x_2 + \\cdots + x_{n-1}x_n$ is a normal element of $S_\\alpha$, the even Clifford algebra of $S_\\alpha/(f)$ is isomorphic to $M_{2^{(n-2)/2}}(k)^2$, and the stable category $\\underline{\\mathsf{CM}}^{\\mathbb Z}(S_\\alpha/(f))$ of graded maximal Cohen-Macaulay modules over $S_\\alpha/(f)$ is triangle equivalent to the derived category $\\mathsf{D}^b(\\mathsf{mod}\\,k^2)$.\n  As a consequence, $S_\\alpha/(f)$ is of finite Cohen-Macaulay representation type in both cases. These results demonstrate that $S_\\alpha/(f)$ is a natural noncommutative generalization of the homogeneous coordinate ring of a smooth quadric hypersurface.",
+    "content": "arXiv:2604.07127v1 Announce Type: new \nAbstract: Let $S_\\alpha = k\\langle x_1,\\dots,x_n\\rangle /(x_i x_j - \\alpha_{ij} x_j x_i)$ be a standard graded skew polynomial algebra over an algebraically closed field $k$ of characteristic not equal to $2$. We show the following results.\n  When $n$ is odd and $f = x_1x_2 + \\cdots + x_{n-2}x_{n-1} + x_n^2$ is a normal element of $S_\\alpha$, the even Clifford algebra of the skew quadric hypersurface $S_\\alpha/(f)$ is isomorphic to a full matrix algebra $M_{2^{(n-1)/2}}(k)$, and the stable category $\\underline{\\mathsf{CM}}^{\\mathbb Z}(S_\\alpha/(f))$ of graded maximal Cohen-Macaulay modules over $S_\\alpha/(f)$ is triangle equivalent to the derived category $\\mathsf{D}^b(\\mathsf{mod}\\,k)$.\n  When $n$ is even and $f = x_1x_2 + \\cdots + x_{n-1}x_n$ is a normal element of $S_\\alpha$, the even Clifford algebra of $S_\\alpha/(f)$ is isomorphic to $M_{2^{(n-2)/2}}(k)^2$, and the stable category $\\underline{\\mathsf{CM}}^{\\mathbb Z}(S_\\alpha/(f))$ of graded maximal Cohen-Macaulay modules over $S_\\alpha/(f)$ is triangle equivalent to the derived category $\\mathsf{D}^b(\\mathsf{mod}\\,k^2)$.\n  As a consequence, $S_\\alpha/(f)$ is of finite Cohen-Macaulay representation type in both cases. These results demonstrate that $S_\\alpha/(f)$ is a natural noncommutative generalization of the homogeneous coordinate ring of a smooth quadric hypersurface.",
+    "enclosure": {},
+    "categories": [
+      "math.RA",
+      "math.RT"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Reduced Unitary Whitehead Groups over Function Fields of p-adic Curves",
+    "pubDate": "2026-04-09 04:00:00",
+    "link": "https://arxiv.org/abs/2604.06617",
+    "guid": "oai:arXiv.org:2604.06617v1",
+    "author": "Zitong Pei",
+    "thumbnail": "",
+    "description": "arXiv:2604.06617v1 Announce Type: cross \nAbstract: Let $F_0$ be the function field of a curve over a $p$-adic field $K,$ and let $F$ be a quadratic extension over $F_0$. Let $A$ be a central simple algebra over $F$ of period $2,$ and let $\\tau$ be a $F/F_0$-involution on $A$. We show the triviality of the reduced unitary Whitehead group $SK_1U( A, \\tau)$ if $p\\neq 2$.",
+    "content": "arXiv:2604.06617v1 Announce Type: cross \nAbstract: Let $F_0$ be the function field of a curve over a $p$-adic field $K,$ and let $F$ be a quadratic extension over $F_0$. Let $A$ be a central simple algebra over $F$ of period $2,$ and let $\\tau$ be a $F/F_0$-involution on $A$. We show the triviality of the reduced unitary Whitehead group $SK_1U( A, \\tau)$ if $p\\neq 2$.",
+    "enclosure": {},
+    "categories": [
+      "math.NT",
+      "math.KT",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Four-angle Hopf modules for Hom-Hopf algebras",
+    "pubDate": "2026-04-09 04:00:00",
+    "link": "https://arxiv.org/abs/2006.15267",
+    "guid": "oai:arXiv.org:2006.15267v2",
+    "author": "Xiaoqian Liu, Dongdong Yan, Xuchen Deng, Danhua Wang",
+    "thumbnail": "",
+    "description": "arXiv:2006.15267v2 Announce Type: replace \nAbstract: In this paper, we introduce the notion of a four-angle Hopf module for a Hom-Hopf algebra $(H,\\beta)$ and show that the category $\\!^{H}_{H}\\mathfrak{M}^{H}_{H}$\n  of four-angle Hopf modules is a monoidal category with either a Hom-tensor product $\\otimes_{H}$ or a Hom-cotensor product $\\Box_{H}$ as a monoidal product.\n  We study the category $\\mathcal{YD}^{H}_{H}$ of Yetter-Drinfel'd modules with bijective structure map can be organized as a braided monoidal category, in which we use a new monoidal structure. Finally, We prove an equivalence between the monoidal category $(~\\!^{H}_{H}\\mathfrak{M}^{H}_{H},\\otimes_{H})$ or $(~\\!^{H}_{H}\\mathfrak{M}^{H}_{H},\\Box_{H})$ of four-angle Hopf modules, and the monoidal category $\\mathcal{YD}^{H}_{H}$ of Yetter-Drinfel'd modules,\n  and furthermore, we give a braiding structure of the monoidal categorys $(~\\!^{H}_{H}\\mathfrak{M}^{H}_{H},\\otimes_{H})$ (and $(~\\!^{H}_{H}\\mathfrak{M}^{H}_{H},\\Box_{H})$).",
+    "content": "arXiv:2006.15267v2 Announce Type: replace \nAbstract: In this paper, we introduce the notion of a four-angle Hopf module for a Hom-Hopf algebra $(H,\\beta)$ and show that the category $\\!^{H}_{H}\\mathfrak{M}^{H}_{H}$\n  of four-angle Hopf modules is a monoidal category with either a Hom-tensor product $\\otimes_{H}$ or a Hom-cotensor product $\\Box_{H}$ as a monoidal product.\n  We study the category $\\mathcal{YD}^{H}_{H}$ of Yetter-Drinfel'd modules with bijective structure map can be organized as a braided monoidal category, in which we use a new monoidal structure. Finally, We prove an equivalence between the monoidal category $(~\\!^{H}_{H}\\mathfrak{M}^{H}_{H},\\otimes_{H})$ or $(~\\!^{H}_{H}\\mathfrak{M}^{H}_{H},\\Box_{H})$ of four-angle Hopf modules, and the monoidal category $\\mathcal{YD}^{H}_{H}$ of Yetter-Drinfel'd modules,\n  and furthermore, we give a braiding structure of the monoidal categorys $(~\\!^{H}_{H}\\mathfrak{M}^{H}_{H},\\otimes_{H})$ (and $(~\\!^{H}_{H}\\mathfrak{M}^{H}_{H},\\Box_{H})$).",
+    "enclosure": {},
+    "categories": [
+      "math.RA",
+      "math.RT"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Restricted graph Lie algebras in characteristic two",
+    "pubDate": "2026-04-09 04:00:00",
+    "link": "https://arxiv.org/abs/2507.07627",
+    "guid": "oai:arXiv.org:2507.07627v4",
+    "author": "Simone Blumer",
+    "thumbnail": "",
+    "description": "arXiv:2507.07627v4 Announce Type: replace \nAbstract: We investigate restricted Lie algebras arising as analogues of (twisted) right-angled Artin groups and right-angled Coxeter groups over fields of characteristic two. These algebras are defined via quadratic relations determined by decorated graphs. We compute their cohomology rings with trivial coefficients and uncover phenomena specific to characteristic two: unlike in zero/odd characteristics, where quadratically defined ordinary and restricted Lie algebras have equivalent cohomology theories, the characteristic two case exhibits dependence on the base field. In particular, we prove that the ground field being the prime field $\\mathbb F_2$ characterizes when a Lie-theoretic analogue of the twisted Droms theorem holds. Generalizations of graph Lie algebras are also discussed.",
+    "content": "arXiv:2507.07627v4 Announce Type: replace \nAbstract: We investigate restricted Lie algebras arising as analogues of (twisted) right-angled Artin groups and right-angled Coxeter groups over fields of characteristic two. These algebras are defined via quadratic relations determined by decorated graphs. We compute their cohomology rings with trivial coefficients and uncover phenomena specific to characteristic two: unlike in zero/odd characteristics, where quadratically defined ordinary and restricted Lie algebras have equivalent cohomology theories, the characteristic two case exhibits dependence on the base field. In particular, we prove that the ground field being the prime field $\\mathbb F_2$ characterizes when a Lie-theoretic analogue of the twisted Droms theorem holds. Generalizations of graph Lie algebras are also discussed.",
+    "enclosure": {},
+    "categories": [
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "On the geometry of spaces of filtrations on local rings",
+    "pubDate": "2026-04-09 04:00:00",
+    "link": "https://arxiv.org/abs/2409.01705",
+    "guid": "oai:arXiv.org:2409.01705v2",
+    "author": "Lu Qi",
+    "thumbnail": "",
+    "description": "arXiv:2409.01705v2 Announce Type: replace-cross \nAbstract: We study the geometry of spaces of fitrations on a Noetherian local domain. We introduce a metric $d_1$ on the space of saturated filtrations, inspired by the Darvas metric in complex geometry, such that it is a geodesic metric space. In the toric case, using Newton-Okounkov bodies, we identify the space of saturated monomial filtrations with a subspace of $L^1_\\mathrm{loc}$. We also consider several other topologies on such spaces and study the semi-continuity of the log canonical threshold function in the spirit of Koll\\'ar-Demailly. Moreover, there is a natural lattice structure on the space of saturated filtrations, which is a generalization of the classical result that the ideals of a ring form a lattice.",
+    "content": "arXiv:2409.01705v2 Announce Type: replace-cross \nAbstract: We study the geometry of spaces of fitrations on a Noetherian local domain. We introduce a metric $d_1$ on the space of saturated filtrations, inspired by the Darvas metric in complex geometry, such that it is a geodesic metric space. In the toric case, using Newton-Okounkov bodies, we identify the space of saturated monomial filtrations with a subspace of $L^1_\\mathrm{loc}$. We also consider several other topologies on such spaces and study the semi-continuity of the log canonical threshold function in the spirit of Koll\\'ar-Demailly. Moreover, there is a natural lattice structure on the space of saturated filtrations, which is a generalization of the classical result that the ideals of a ring form a lattice.",
+    "enclosure": {},
+    "categories": [
+      "math.AG",
+      "math.AC",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
     "title": "Universal Fibonacci sequences and UFS-groupoids",
     "pubDate": "2026-04-08 04:00:00",
     "link": "https://arxiv.org/abs/2604.05754",
