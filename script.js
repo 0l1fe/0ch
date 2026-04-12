@@ -57,7 +57,6 @@ window.MathJax = {
 
   // ── 4. Initial render ────────────────────────────────────────────────────
   renderItems(allItems, feedContainer);
-  updateCount(allItems.length, allItems.length);
 
   // ── 5. Real-time search ──────────────────────────────────────────────────
   searchInput.addEventListener('input', () => {
@@ -65,7 +64,6 @@ window.MathJax = {
 
     if (!query) {
       renderItems(allItems, feedContainer);
-      updateCount(allItems.length, allItems.length);
       return;
     }
 
@@ -86,24 +84,14 @@ window.MathJax = {
     });
 
     renderItems(results, feedContainer);
-    updateCount(results.length, allItems.length);
   });
 })();
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
 
-function updateCount(shown, total) {
-  const el = document.getElementById('search-count');
-  if (!el) return;
-  el.textContent = shown === total ? `${total} papers` : `${shown} / ${total}`;
-}
-
 function renderItems(items, container) {
   container.innerHTML = '';
-  if (!items || items.length === 0) {
-    container.innerHTML = '<p style="padding: 1rem 3px; color: #888;">No results.</p>';
-    return;
-  }
+  if (!items || items.length === 0) return;
 
   const fragment = document.createDocumentFragment();
   const dateOptions = {
