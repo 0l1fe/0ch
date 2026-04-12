@@ -19,129 +19,108 @@ window.MathJax = {
   const feedUrls = ['http://rss.arxiv.org/rss/math.RA/'];
   const proxyBase = 'https://api.rss2json.com/v1/api.json?rss_url=';
   const feedContainer = document.getElementById('feed');
+  const searchInput = document.getElementById('search-input');
+  const searchCount = document.getElementById('search-count');
 
+  let allItems = [];
+
+  // ── 1. Fetch live RSS items ──────────────────────────────────────────────
+  let liveItems = [];
   try {
     const responses = await Promise.all(
       feedUrls.map(url => fetch(proxyBase + encodeURIComponent(url)).then(res => res.json()))
     );
-    
-    let liveItems = responses.flatMap((data, i) => 
+    liveItems = responses.flatMap((data, i) =>
       (data.status === 'ok' && Array.isArray(data.items))
         ? data.items.map(item => ({ ...item, __source: feedUrls[i] }))
         : []
-    ).sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-
-    if (liveItems.length) {
-      renderItems(liveItems, feedContainer);
-    } else {
-      feedContainer.innerHTML = '';
-    }
-
-    const logoBtn = document.querySelector('.navbar .container .navbar-brand');
-    if (logoBtn) {
-      logoBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        window.location.reload(); 
-      });
-    }
-
-    const navContainer = document.querySelector('.navbar .container');
-    if (navContainer) {
-      const archiveBtn = document.createElement('a');
-      archiveBtn.href = '#';
-      archiveBtn.className = 'navbar-brand'; 
-      archiveBtn.textContent = ' [Archive]';
-      navContainer.appendChild(archiveBtn);
-
-      let isArchiveView = false;
-      let archiveItems = null; 
-
-      archiveBtn.addEventListener('click', async (e) => {
-        e.preventDefault();
-        isArchiveView = !isArchiveView;
-        archiveBtn.textContent = isArchiveView ? ' [Back to Feed]' : ' [Archive]';
-        
-        feedContainer.innerHTML = ''; 
-        
-        if (isArchiveView) {
-          feedContainer.innerHTML = `
-            <div class="card mb-4">
-              <div class="card-body" style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
-                <label for="archive-date" style="margin: 0; font-weight: 600;">Filter by Date:</label>
-                <input type="date" id="archive-date" class="form-control" style="flex-grow: 1; max-width: 200px;">
-                <button id="clear-date" class="btn btn-secondary">Clear Filter</button>
-              </div>
-            </div>
-            <div id="archive-content"></div>
-          `;
-          
-          const contentContainer = document.getElementById('archive-content');
-          const dateInput = document.getElementById('archive-date');
-          const clearBtn = document.getElementById('clear-date');
-
-          if (!archiveItems) {
-            try {
-              const res = await fetch('./archive.json');
-              archiveItems = await res.json();
-            } catch (err) {
-              archiveItems = []; 
-            }
-          }
-          
-          renderItems(archiveItems, contentContainer);
-
-          dateInput.addEventListener('change', (event) => {
-            const selectedDate = event.target.value; 
-            if (!selectedDate) {
-              return renderItems(archiveItems, contentContainer);
-            }
-
-            const filteredItems = archiveItems.filter(item => {
-              // Use the date portion of pubDate string directly (format: "YYYY-MM-DD HH:MM:SS")
-              // avoids timezone shifts from toISOString() which always outputs UTC
-              const itemDate = item.pubDate ? item.pubDate.split(' ')[0] : '';
-              return itemDate === selectedDate;
-            });
-
-            renderItems(filteredItems, contentContainer);
-          });
-
-          clearBtn.addEventListener('click', () => {
-            dateInput.value = '';
-            renderItems(archiveItems, contentContainer);
-          });
-
-        } else {
-          renderItems(liveItems, feedContainer);
-        }
-      });
-    }
-
-  } catch (error) {
-    feedContainer.innerHTML = '';
+    );
+  } catch (_) {
+    // live fetch failed — archive-only mode is fine
   }
+
+  // ── 2. Fetch archive items ───────────────────────────────────────────────
+  let archiveItems = [];
+  try {
+    const res = await fetch('./archive.json');
+    archiveItems = await res.json();
+  } catch (_) {}
+
+  // ── 3. Merge, deduplicate by link, sort newest-first ────────────────────
+  const seen = new Set();
+  allItems = [...liveItems, ...archiveItems].filter(item => {
+    const key = item.link || item.guid || item.title;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  }).sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+
+  // ── 4. Initial render ────────────────────────────────────────────────────
+  renderItems(allItems, feedContainer);
+  updateCount(allItems.length, allItems.length);
+
+  // ── 5. Real-time search ──────────────────────────────────────────────────
+  searchInput.addEventListener('input', () => {
+    const query = searchInput.value.trim().toLowerCase();
+
+    if (!query) {
+      renderItems(allItems, feedContainer);
+      updateCount(allItems.length, allItems.length);
+      return;
+    }
+
+    // Tokenise on whitespace so multi-word queries work as AND
+    const tokens = query.split(/\s+/).filter(Boolean);
+
+    const results = allItems.filter(item => {
+      const haystack = [
+        item.title || '',
+        item.author || '',
+        (item.categories || []).join(' '),
+        item.description || '',
+        item.contentSnippet || '',
+        item.content || ''
+      ].join(' ').toLowerCase();
+
+      return tokens.every(token => haystack.includes(token));
+    });
+
+    renderItems(results, feedContainer);
+    updateCount(results.length, allItems.length);
+  });
 })();
 
+// ── Helpers ──────────────────────────────────────────────────────────────────
+
+function updateCount(shown, total) {
+  const el = document.getElementById('search-count');
+  if (!el) return;
+  el.textContent = shown === total ? `${total} papers` : `${shown} / ${total}`;
+}
+
 function renderItems(items, container) {
-  container.innerHTML = ''; 
-  if (!items || items.length === 0) return;
+  container.innerHTML = '';
+  if (!items || items.length === 0) {
+    container.innerHTML = '<p style="padding: 1rem 3px; color: #888;">No results.</p>';
+    return;
+  }
 
   const fragment = document.createDocumentFragment();
-  const dateOptions = { 
+  const dateOptions = {
     weekday: 'short',
-    year: 'numeric', 
-    month: 'short', 
+    year: 'numeric',
+    month: 'short',
     day: 'numeric'
   };
 
   items.forEach(item => {
     const article = document.createElement('article');
     article.className = 'card mb-4';
-    
+
     const formattedDate = new Date(item.pubDate).toLocaleDateString('en-GB', dateOptions);
     const authors = item.author ? item.author : '';
-    const subjects = (item.categories && item.categories.length > 0) 
-      ? item.categories.join(', ') 
+    const subjects = (item.categories && item.categories.length > 0)
+      ? item.categories.join(', ')
       : '';
 
     article.innerHTML = `
@@ -161,9 +140,9 @@ function renderItems(items, container) {
     `;
     fragment.appendChild(article);
   });
-  
+
   container.appendChild(fragment);
-  
+
   if (window.MathJax?.typesetPromise) {
     window.MathJax.typesetPromise().catch(() => {});
   }
