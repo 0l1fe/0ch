@@ -1,5 +1,167 @@
 [
   {
+    "title": "Why the Bethe Ansatz Works: A Structural Explanation via Interaction Propagation",
+    "pubDate": "2026-04-14 04:00:00",
+    "link": "https://arxiv.org/abs/2604.09844",
+    "guid": "oai:arXiv.org:2604.09844v1",
+    "author": "Joe Gildea",
+    "thumbnail": "",
+    "description": "arXiv:2604.09844v1 Announce Type: new \nAbstract: The Bethe Ansatz provides exact solutions for certain interacting quantum many-body systems, yet its success is confined to narrow regimes and breaks down abruptly outside them. Despite extensive developments in integrable systems, a structural explanation of this phenomenon has remained elusive.\n  In this paper we give a representation-independent account of both the existence and the failure of Bethe-type exact solvability. We identify a single governing mechanism: the behaviour of interaction propagation. For systems in which propagation terminates after finite depth without encountering structural boundaries, global interaction data factor through finitely many local components, forcing Bethe-type solvability. Conversely, once a structural boundary is encountered, irreducible interaction data arise that obstruct such finite factorization and preclude Bethe-type solutions.\n  This yields a sharp structural dichotomy. Within this regime, exact solvability is not an analytic accident but a rigidity phenomenon, while its failure is governed by intrinsic boundary formation. In this way, the Bethe Ansatz is understood as a consequence of constrained interaction propagation rather than as a model-specific construction.",
+    "content": "arXiv:2604.09844v1 Announce Type: new \nAbstract: The Bethe Ansatz provides exact solutions for certain interacting quantum many-body systems, yet its success is confined to narrow regimes and breaks down abruptly outside them. Despite extensive developments in integrable systems, a structural explanation of this phenomenon has remained elusive.\n  In this paper we give a representation-independent account of both the existence and the failure of Bethe-type exact solvability. We identify a single governing mechanism: the behaviour of interaction propagation. For systems in which propagation terminates after finite depth without encountering structural boundaries, global interaction data factor through finitely many local components, forcing Bethe-type solvability. Conversely, once a structural boundary is encountered, irreducible interaction data arise that obstruct such finite factorization and preclude Bethe-type solutions.\n  This yields a sharp structural dichotomy. Within this regime, exact solvability is not an analytic accident but a rigidity phenomenon, while its failure is governed by intrinsic boundary formation. In this way, the Bethe Ansatz is understood as a consequence of constrained interaction propagation rather than as a model-specific construction.",
+    "enclosure": {},
+    "categories": [
+      "math.RA",
+      "math-ph",
+      "math.MP"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Orthogonal Idempotents in Symmetric Tensor Powers of Composition Algebras",
+    "pubDate": "2026-04-14 04:00:00",
+    "link": "https://arxiv.org/abs/2604.10319",
+    "guid": "oai:arXiv.org:2604.10319v1",
+    "author": "Aharon Razon",
+    "thumbnail": "",
+    "description": "arXiv:2604.10319v1 Announce Type: new \nAbstract: We explicitly find a complete set of ${1\\over4}(n+2)^2$ (resp. ${1\\over4}(n+1)(n+3)$) primitive orthogonal idempotents in ${\\rm Sym}^n\\mathbb{H}\\otimes_\\mathbb{R}\\mathbb{C}$ if $n$ is even (resp. odd), where ${\\rm Sym}^n\\mathbb{H}$ is the $n^{\\it th}$ symmetric power of the Hamilton quaternion algebra $\\mathbb{H}$. We also give a complete set of ${1\\over4}(n+2)^2$ (resp. ${1\\over8}(n+1)(n+3)$) primitive orthogonal idempotents in ${\\rm Sym}^n\\mathbb{H}$ if $n$ is even (resp. odd). Moreover, we explicitly find a complete set of ${1\\over24}(n+2)(n+3)(n+4)$ (resp. ${1\\over24}(n+1)(n+3)(n+5)$) primitive orthogonal idempotents in a certain associative subalgebra of ${\\rm Sym}^n\\mathbb{O}\\otimes_\\mathbb{R}\\mathbb{C}$ if $n$ is even (resp. odd), where ${\\rm Sym}^n\\mathbb{O}$ is the $n^{\\it th}$ symmetric power of the Cayley octonion algebra $\\mathbb{O}$. We also give a complete set of ${1\\over24}(n+2)(n+3)(n+4)$ (resp. ${1\\over48}(n+1)(n+3)(n+5)$) primitive orthogonal idempotents in a certain associative subalgebra of ${\\rm Sym}^n\\mathbb{O}$ if $n$ is even (resp. odd).",
+    "content": "arXiv:2604.10319v1 Announce Type: new \nAbstract: We explicitly find a complete set of ${1\\over4}(n+2)^2$ (resp. ${1\\over4}(n+1)(n+3)$) primitive orthogonal idempotents in ${\\rm Sym}^n\\mathbb{H}\\otimes_\\mathbb{R}\\mathbb{C}$ if $n$ is even (resp. odd), where ${\\rm Sym}^n\\mathbb{H}$ is the $n^{\\it th}$ symmetric power of the Hamilton quaternion algebra $\\mathbb{H}$. We also give a complete set of ${1\\over4}(n+2)^2$ (resp. ${1\\over8}(n+1)(n+3)$) primitive orthogonal idempotents in ${\\rm Sym}^n\\mathbb{H}$ if $n$ is even (resp. odd). Moreover, we explicitly find a complete set of ${1\\over24}(n+2)(n+3)(n+4)$ (resp. ${1\\over24}(n+1)(n+3)(n+5)$) primitive orthogonal idempotents in a certain associative subalgebra of ${\\rm Sym}^n\\mathbb{O}\\otimes_\\mathbb{R}\\mathbb{C}$ if $n$ is even (resp. odd), where ${\\rm Sym}^n\\mathbb{O}$ is the $n^{\\it th}$ symmetric power of the Cayley octonion algebra $\\mathbb{O}$. We also give a complete set of ${1\\over24}(n+2)(n+3)(n+4)$ (resp. ${1\\over48}(n+1)(n+3)(n+5)$) primitive orthogonal idempotents in a certain associative subalgebra of ${\\rm Sym}^n\\mathbb{O}$ if $n$ is even (resp. odd).",
+    "enclosure": {},
+    "categories": [
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Extensions of simple modules over Leavitt path algebras",
+    "pubDate": "2026-04-14 04:00:00",
+    "link": "https://arxiv.org/abs/2604.11241",
+    "guid": "oai:arXiv.org:2604.11241v1",
+    "author": "Francesca Mantese, Alberto Tonolo",
+    "thumbnail": "",
+    "description": "arXiv:2604.11241v1 Announce Type: new \nAbstract: Let $K$ be any field, and let $E$ be any graph. We explicitly construct the projective resolution of simple left modules over the Leavitt path algebra $L_K(E)$ associated to cycles and irreducible polynomials. Then we study the dimension of the $K$-vector space of the extensions between two such simple modules.",
+    "content": "arXiv:2604.11241v1 Announce Type: new \nAbstract: Let $K$ be any field, and let $E$ be any graph. We explicitly construct the projective resolution of simple left modules over the Leavitt path algebra $L_K(E)$ associated to cycles and irreducible polynomials. Then we study the dimension of the $K$-vector space of the extensions between two such simple modules.",
+    "enclosure": {},
+    "categories": [
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Symmetric operads of GK-dimension one",
+    "pubDate": "2026-04-14 04:00:00",
+    "link": "https://arxiv.org/abs/2604.11469",
+    "guid": "oai:arXiv.org:2604.11469v1",
+    "author": "Yu Li, Zihao Qi, Yongjun Xu, James J. Zhang, Zerui Zhang, Xiangui Zhao",
+    "thumbnail": "",
+    "description": "arXiv:2604.11469v1 Announce Type: new \nAbstract: We prove that there is no finitely generated symmetric operad of Gelfand-Kirillov dimension strictly between 1 and 2 that answers an open question posted in 2020. We also classify finitely generated prime symmetric operads of Gelfand-Kirillov dimension 1.",
+    "content": "arXiv:2604.11469v1 Announce Type: new \nAbstract: We prove that there is no finitely generated symmetric operad of Gelfand-Kirillov dimension strictly between 1 and 2 that answers an open question posted in 2020. We also classify finitely generated prime symmetric operads of Gelfand-Kirillov dimension 1.",
+    "enclosure": {},
+    "categories": [
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Bicovariant Codifferential Calculi",
+    "pubDate": "2026-04-14 04:00:00",
+    "link": "https://arxiv.org/abs/2602.12493",
+    "guid": "oai:arXiv.org:2602.12493v3",
+    "author": "Andrzej Borowiec, Patryk Mieszkalski",
+    "thumbnail": "",
+    "description": "arXiv:2602.12493v3 Announce Type: cross \nAbstract: We develop a technique for studying first-order codifferential calculi (FOCCs) initiated by Doi and Quillen in the context of cyclic cohomology. Their classification, for a given coalgebra, reduces to the classification of subbicomodules in the universal bicomodule. For completing this task, the role of one-dimensional generating spaces (a.k.a. singletons) is found to be useful. We are particularly interested in classifying bicovariant codifferential calculi, which we define over Hopf algebras. This, in turn, can be reduced to classifying Yetter-Drinfeld (Y-D) submodules. In fact, there are two, mutually dual, Y-D structures on arbitrary Hopf algebra: one used by Woronowicz for constructing bicovariant differential calculi, and the another used here for FOCCs and shown to be related with Woronowicz construction of quantum tangent space. This argues that such codifferential calculi are better suited to Drinfeld-Jimbo type quantized enveloping algebras, as they are dual to Woronowicz' bicovariant calculi over matrix quantum groups. Relations with quantum Lie algebras and quantum vector fields are also shown. Some classification results are presented in numerous examples.",
+    "content": "arXiv:2602.12493v3 Announce Type: cross \nAbstract: We develop a technique for studying first-order codifferential calculi (FOCCs) initiated by Doi and Quillen in the context of cyclic cohomology. Their classification, for a given coalgebra, reduces to the classification of subbicomodules in the universal bicomodule. For completing this task, the role of one-dimensional generating spaces (a.k.a. singletons) is found to be useful. We are particularly interested in classifying bicovariant codifferential calculi, which we define over Hopf algebras. This, in turn, can be reduced to classifying Yetter-Drinfeld (Y-D) submodules. In fact, there are two, mutually dual, Y-D structures on arbitrary Hopf algebra: one used by Woronowicz for constructing bicovariant differential calculi, and the another used here for FOCCs and shown to be related with Woronowicz construction of quantum tangent space. This argues that such codifferential calculi are better suited to Drinfeld-Jimbo type quantized enveloping algebras, as they are dual to Woronowicz' bicovariant calculi over matrix quantum groups. Relations with quantum Lie algebras and quantum vector fields are also shown. Some classification results are presented in numerous examples.",
+    "enclosure": {},
+    "categories": [
+      "math.QA",
+      "hep-th",
+      "math-ph",
+      "math.MP",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Dual contractions and algebraic families",
+    "pubDate": "2026-04-14 04:00:00",
+    "link": "https://arxiv.org/abs/2604.10162",
+    "guid": "oai:arXiv.org:2604.10162v1",
+    "author": "Eyal Subag",
+    "thumbnail": "",
+    "description": "arXiv:2604.10162v1 Announce Type: cross \nAbstract: We introduce a duality for In\\\"{o}n\\\"{u}-Wigner contractions attached to real symmetric Lie algebras. Starting from a symmetric pair $(\\mathfrak{g},\\theta)$, we define a dual real form $\\mathfrak{g}^{*}$ inside the complexification of $\\mathfrak{g}$ and consider the corresponding contraction with respect to the common fixed-point subalgebra $\\mathfrak{g}^{\\theta}$. The main result shows that the original contraction and its dual appear as real fibers of a single algebraic family of complex Lie algebras equipped with an anti-holomorphic involution. This places the two contractions in one geometric framework and connects them with the algebraic-family methods developed in recent work on contractions, real forms, and hidden symmetries.",
+    "content": "arXiv:2604.10162v1 Announce Type: cross \nAbstract: We introduce a duality for In\\\"{o}n\\\"{u}-Wigner contractions attached to real symmetric Lie algebras. Starting from a symmetric pair $(\\mathfrak{g},\\theta)$, we define a dual real form $\\mathfrak{g}^{*}$ inside the complexification of $\\mathfrak{g}$ and consider the corresponding contraction with respect to the common fixed-point subalgebra $\\mathfrak{g}^{\\theta}$. The main result shows that the original contraction and its dual appear as real fibers of a single algebraic family of complex Lie algebras equipped with an anti-holomorphic involution. This places the two contractions in one geometric framework and connects them with the algebraic-family methods developed in recent work on contractions, real forms, and hidden symmetries.",
+    "enclosure": {},
+    "categories": [
+      "math-ph",
+      "math.MP",
+      "math.RA",
+      "math.RT"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Geometrization of the Schr\\\"odinger Model for the Minimal Representation of an Even Orthogonal Group: The de Rham Setting",
+    "pubDate": "2026-04-14 04:00:00",
+    "link": "https://arxiv.org/abs/2604.11023",
+    "guid": "oai:arXiv.org:2604.11023v1",
+    "author": "Aaron Slipper",
+    "thumbnail": "",
+    "description": "arXiv:2604.11023v1 Announce Type: cross \nAbstract: We construct and compare three D-module models for the minimal representation of the conformal group of an even-dimensional quadratic space. Let $V$ be a quadratic space over a field $\\kappa$ of characteristic $0$, let $C$ be the isotropic cone in $V^*$, and let $G$ be the conformal group of $V$. We prove an equivalence between the category of modules over the Grothendieck differential operator algebra $D_C$, a Kazhdan--Laumon glued category attached to the smooth locus of the cone, and a category of \"harmonic\" twisted D-modules on a flag variety $G/P$. Along the way, we construct a quadric Fourier transform on $D_C$, provide a geometric proof that the algebra $D_C$ is finitely generated despite the singularity of $C$, and explain the quasi-classical analogue of this minimal representation.",
+    "content": "arXiv:2604.11023v1 Announce Type: cross \nAbstract: We construct and compare three D-module models for the minimal representation of the conformal group of an even-dimensional quadratic space. Let $V$ be a quadratic space over a field $\\kappa$ of characteristic $0$, let $C$ be the isotropic cone in $V^*$, and let $G$ be the conformal group of $V$. We prove an equivalence between the category of modules over the Grothendieck differential operator algebra $D_C$, a Kazhdan--Laumon glued category attached to the smooth locus of the cone, and a category of \"harmonic\" twisted D-modules on a flag variety $G/P$. Along the way, we construct a quadric Fourier transform on $D_C$, provide a geometric proof that the algebra $D_C$ is finitely generated despite the singularity of $C$, and explain the quasi-classical analogue of this minimal representation.",
+    "enclosure": {},
+    "categories": [
+      "math.RT",
+      "math.NT",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "On solutions of singular Sylvester equations in quaternions",
+    "pubDate": "2026-04-14 04:00:00",
+    "link": "https://arxiv.org/abs/2510.04629",
+    "guid": "oai:arXiv.org:2510.04629v5",
+    "author": "Hristina Radak, Christian Scheunert, Frank H. P. Fitzek",
+    "thumbnail": "",
+    "description": "arXiv:2510.04629v5 Announce Type: replace \nAbstract: The quaternionic equations ax-xb=0 and ax-xb=c are investigated, which are called homogeneous and inhomogeneous Sylvester equations, respectively. Conditions for the existence of solutions are provided. In addition, the general and nonzero solutions to these equations are derived applying quaternion square roots.",
+    "content": "arXiv:2510.04629v5 Announce Type: replace \nAbstract: The quaternionic equations ax-xb=0 and ax-xb=c are investigated, which are called homogeneous and inhomogeneous Sylvester equations, respectively. Conditions for the existence of solutions are provided. In addition, the general and nonzero solutions to these equations are derived applying quaternion square roots.",
+    "enclosure": {},
+    "categories": [
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "On monoid graded semihereditary rings",
+    "pubDate": "2026-04-14 04:00:00",
+    "link": "https://arxiv.org/abs/2603.20202",
+    "guid": "oai:arXiv.org:2603.20202v2",
+    "author": "Haneen Falah Ghalib Al-Kharsan, Parviz Sahandi, Nematollah Shirmohammadi",
+    "thumbnail": "",
+    "description": "arXiv:2603.20202v2 Announce Type: replace \nAbstract: In order to study graded left hereditary and left semihereditary rings graded by a cancelation monoid in terms of their modules, we need to revisit graded free, projective, injective, and flat modules and provide graded versions of specific results concerning these modules, like Baer's criterion on injectivity and Lazard's theorem on flatness. Then, among other things, we can give some characterization of graded left hereditary and left semihereditary rings, in particular, of graded-Pr\\\"{u}fer and graded-Dedekind domains.",
+    "content": "arXiv:2603.20202v2 Announce Type: replace \nAbstract: In order to study graded left hereditary and left semihereditary rings graded by a cancelation monoid in terms of their modules, we need to revisit graded free, projective, injective, and flat modules and provide graded versions of specific results concerning these modules, like Baer's criterion on injectivity and Lazard's theorem on flatness. Then, among other things, we can give some characterization of graded left hereditary and left semihereditary rings, in particular, of graded-Pr\\\"{u}fer and graded-Dedekind domains.",
+    "enclosure": {},
+    "categories": [
+      "math.RA",
+      "math.AC"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Point modules over the universal enveloping algebras of color Lie algebras",
+    "pubDate": "2026-04-14 04:00:00",
+    "link": "https://arxiv.org/abs/2604.00450",
+    "guid": "oai:arXiv.org:2604.00450v2",
+    "author": "Shu Minaki",
+    "thumbnail": "",
+    "description": "arXiv:2604.00450v2 Announce Type: replace \nAbstract: Let $k$ be an algebraically closed field with characteristic $0$. In this paper, we define the notion of a $q'$-Heisenberg normal element of a $\\mathbb{Z}$-graded $k$-algebra. This $q'$-Heisenberg normal element gives the structure of some sets of modules related to point modules. Also, we determine the set of point modules over an Artin--Schelter regular algebra obtained as the universal enveloping algebra of a color Lie algebra. Moreover, we give a concrete integer such that the inverse system of truncated point schemes of it is constant.",
+    "content": "arXiv:2604.00450v2 Announce Type: replace \nAbstract: Let $k$ be an algebraically closed field with characteristic $0$. In this paper, we define the notion of a $q'$-Heisenberg normal element of a $\\mathbb{Z}$-graded $k$-algebra. This $q'$-Heisenberg normal element gives the structure of some sets of modules related to point modules. Also, we determine the set of point modules over an Artin--Schelter regular algebra obtained as the universal enveloping algebra of a color Lie algebra. Moreover, we give a concrete integer such that the inverse system of truncated point schemes of it is constant.",
+    "enclosure": {},
+    "categories": [
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
     "title": "A necessary condition for solvability by radicals",
     "pubDate": "2026-04-13 04:00:00",
     "link": "https://arxiv.org/abs/2604.08642",
