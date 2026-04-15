@@ -1,5 +1,85 @@
 [
   {
+    "title": "Graded Equivalence for Graded Idempotent Rings",
+    "pubDate": "2026-04-15 04:00:00",
+    "link": "https://arxiv.org/abs/2604.12355",
+    "guid": "oai:arXiv.org:2604.12355v1",
+    "author": "Mikhailo Dokuchaev, Juan Jacobo Sim\\'on",
+    "thumbnail": "",
+    "description": "arXiv:2604.12355v1 Announce Type: new \nAbstract: In this paper, we extend the study of graded equivalences to the case of general idempotent graded rings. We prove that the existence of a graded equivalence between two categories of graded torsion-free unital modules may be characterized by the existence of a Morita context with surjective trace maps. As an application of our results we relate certain lattices of graded submodules and graded ideals of graded equivalent garded rings and give some properties invariant under graded equivalences.",
+    "content": "arXiv:2604.12355v1 Announce Type: new \nAbstract: In this paper, we extend the study of graded equivalences to the case of general idempotent graded rings. We prove that the existence of a graded equivalence between two categories of graded torsion-free unital modules may be characterized by the existence of a Morita context with surjective trace maps. As an application of our results we relate certain lattices of graded submodules and graded ideals of graded equivalent garded rings and give some properties invariant under graded equivalences.",
+    "enclosure": {},
+    "categories": [
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Fueter trees for Dunkl-regular functions over alternative *-algebras",
+    "pubDate": "2026-04-15 04:00:00",
+    "link": "https://arxiv.org/abs/2604.12876",
+    "guid": "oai:arXiv.org:2604.12876v1",
+    "author": "Alessandro Perotti",
+    "thumbnail": "",
+    "description": "arXiv:2604.12876v1 Announce Type: cross \nAbstract: We prove a general Fueter Theorem over real alternative *-algebras. We show that a suitable power of the Laplacian maps Dunkl-regular functions to Dunkl monogenic functions with axial symmetries. Using the embedding of hypercomplex function theories in the class of Dunkl monogenic functions, we subsume several Fueter-type results known in the literature and obtain the most general form for the action of the Laplacian on function spaces over hypercomplex subspaces. We show that Fueter Theorems are in a one-to-one correspondence with a class of graphs, the Fueter trees, that describe the interactions between Dunkl-regular function spaces and the relation with the iterated Laplacian. We obtain that the number of distinct Fueter trees on a hypercomplex space of dimension $n+1$ is equal to the number of partitions in odd parts of the integer $n$.",
+    "content": "arXiv:2604.12876v1 Announce Type: cross \nAbstract: We prove a general Fueter Theorem over real alternative *-algebras. We show that a suitable power of the Laplacian maps Dunkl-regular functions to Dunkl monogenic functions with axial symmetries. Using the embedding of hypercomplex function theories in the class of Dunkl monogenic functions, we subsume several Fueter-type results known in the literature and obtain the most general form for the action of the Laplacian on function spaces over hypercomplex subspaces. We show that Fueter Theorems are in a one-to-one correspondence with a class of graphs, the Fueter trees, that describe the interactions between Dunkl-regular function spaces and the relation with the iterated Laplacian. We obtain that the number of distinct Fueter trees on a hypercomplex space of dimension $n+1$ is equal to the number of partitions in odd parts of the integer $n$.",
+    "enclosure": {},
+    "categories": [
+      "math.CV",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Symmetry Is Almost All You Need: Robust Stability with Uncertainty Induced by Symmetric SRG Regions",
+    "pubDate": "2026-04-15 04:00:00",
+    "link": "https://arxiv.org/abs/2604.12960",
+    "guid": "oai:arXiv.org:2604.12960v1",
+    "author": "Ding Zhang, Di Zhao, Philipp Braun, Jianqi Chen",
+    "thumbnail": "",
+    "description": "arXiv:2604.12960v1 Announce Type: cross \nAbstract: This paper investigates the robust stability problem of a feedback system in the presence of uncertainties induced by graphical regions in the plane where the scaled relative graphs (SRGs) reside. Our main results are developed using a novel and intuitive concept, the Davis-Wielandt shell, together with its connection to SRGs and related variants. We first study a matrix robust nonsingularity (MRN) problem for two types of graphically induced uncertainty sets: one with prior information on $\\theta$ and one without. In the former case, we show that, whenever the uncertainty-inducing region is mirror symmetric about the $\\theta$-axis, the separation between a specific variant of the SRG and the region provides a necessary and sufficient condition for MRN. When the region is asymmetric, the necessity generally fails. This recovers the necessity of the small gain condition, and reveals the necessity of small angle conditions and sectored-disc conditions at the matrix level. In the latter case, we show that an additional $\\theta$-circular connectivity property is required to obtain necessary and sufficient conditions. Building on these MRN results, we then derive sufficient conditions for robust stability of multi-input multi-output (MIMO) linear time-invariant (LTI) systems under frequencywise symmetric uncertainties. In addition, connections with existing system characteristics such as disc-boundedness are discussed and exploited to obtain state-space characterisations for angle-bounded and mixed gain-angle-bounded systems. Based on these results, we construct a $\\theta$-angle-gain profile of a system that provides an intuitive visualisation of its feedback robustness against conic and sectorial uncertainties.",
+    "content": "arXiv:2604.12960v1 Announce Type: cross \nAbstract: This paper investigates the robust stability problem of a feedback system in the presence of uncertainties induced by graphical regions in the plane where the scaled relative graphs (SRGs) reside. Our main results are developed using a novel and intuitive concept, the Davis-Wielandt shell, together with its connection to SRGs and related variants. We first study a matrix robust nonsingularity (MRN) problem for two types of graphically induced uncertainty sets: one with prior information on $\\theta$ and one without. In the former case, we show that, whenever the uncertainty-inducing region is mirror symmetric about the $\\theta$-axis, the separation between a specific variant of the SRG and the region provides a necessary and sufficient condition for MRN. When the region is asymmetric, the necessity generally fails. This recovers the necessity of the small gain condition, and reveals the necessity of small angle conditions and sectored-disc conditions at the matrix level. In the latter case, we show that an additional $\\theta$-circular connectivity property is required to obtain necessary and sufficient conditions. Building on these MRN results, we then derive sufficient conditions for robust stability of multi-input multi-output (MIMO) linear time-invariant (LTI) systems under frequencywise symmetric uncertainties. In addition, connections with existing system characteristics such as disc-boundedness are discussed and exploited to obtain state-space characterisations for angle-bounded and mixed gain-angle-bounded systems. Based on these results, we construct a $\\theta$-angle-gain profile of a system that provides an intuitive visualisation of its feedback robustness against conic and sectorial uncertainties.",
+    "enclosure": {},
+    "categories": [
+      "eess.SY",
+      "cs.SY",
+      "math.OC",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "The trace Cayley-Hamilton theorem",
+    "pubDate": "2026-04-15 04:00:00",
+    "link": "https://arxiv.org/abs/2510.20689",
+    "guid": "oai:arXiv.org:2510.20689v2",
+    "author": "Darij Grinberg",
+    "thumbnail": "",
+    "description": "arXiv:2510.20689v2 Announce Type: replace \nAbstract: In this expository paper, various properties of matrix traces, determinants and adjugate matrices are proved, including the *trace Cayley-Hamilton theorem*, which says that \\[ kc_k + \\sum_{i=1}^k \\operatorname{Tr} (A^i) c_{k-i} = 0 \\qquad \\text{for every } k\\in\\mathbb{N} \\] whenever $A$ is an $n\\times n$-matrix with characteristic polynomial $\\det (tI_n - A) = \\sum_{i=0}^n c_{n-i} t^i$ over a commutative ring $\\mathbb{K}$. While the results are not new, some of the proofs are. The proofs illustrate some general techniques in linear algebra over commutative rings.",
+    "content": "arXiv:2510.20689v2 Announce Type: replace \nAbstract: In this expository paper, various properties of matrix traces, determinants and adjugate matrices are proved, including the *trace Cayley-Hamilton theorem*, which says that \\[ kc_k + \\sum_{i=1}^k \\operatorname{Tr} (A^i) c_{k-i} = 0 \\qquad \\text{for every } k\\in\\mathbb{N} \\] whenever $A$ is an $n\\times n$-matrix with characteristic polynomial $\\det (tI_n - A) = \\sum_{i=0}^n c_{n-i} t^i$ over a commutative ring $\\mathbb{K}$. While the results are not new, some of the proofs are. The proofs illustrate some general techniques in linear algebra over commutative rings.",
+    "enclosure": {},
+    "categories": [
+      "math.RA",
+      "math.HO"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "The relationship between local derivations and local automorphisms of some associative algebras",
+    "pubDate": "2026-04-15 04:00:00",
+    "link": "https://arxiv.org/abs/2511.17316",
+    "guid": "oai:arXiv.org:2511.17316v2",
+    "author": "Farkhodzhon Arzikulov, Utkir Khakimov, Abduqaxxor Qurbonov",
+    "thumbnail": "",
+    "description": "arXiv:2511.17316v2 Announce Type: replace \nAbstract: In the present paper, local derivations and local automorphisms of five-dimensional naturally graded nilpotent associative algebras are studied. Namely, a general form of the matrices of local derivations and local automorphisms of algebras $\\pi_2$ and $\\pi_3$ is clarified. It turns out that the general form of the matrix of an automorphism (derivation) on these algebras does not coincide with the local automorphism's (resp. local derivation's) matrix's general form on these algebras. Therefore, these associative algebras have local automorphisms (resp. local derivations) that are not automorphisms (resp. derivations). We also establish a relationship between local automorphisms and local derivations via an exponential expression. We prove that the sets of local derivations of algebras $\\pi_2$ and $\\pi_3$ form Lie algebras with respect to the Lie brackets. Thus, we show that the Lie algebra problem from the Ayupov-Eldique-Kudaybergenov problems for local derivations of the algebras under consideration has a positive solution. The remaining problems from the Ayupov-Eldique-Kudaybergenov problems also have a positive solution for algebras $\\pi_2$ and $\\pi_3$.",
+    "content": "arXiv:2511.17316v2 Announce Type: replace \nAbstract: In the present paper, local derivations and local automorphisms of five-dimensional naturally graded nilpotent associative algebras are studied. Namely, a general form of the matrices of local derivations and local automorphisms of algebras $\\pi_2$ and $\\pi_3$ is clarified. It turns out that the general form of the matrix of an automorphism (derivation) on these algebras does not coincide with the local automorphism's (resp. local derivation's) matrix's general form on these algebras. Therefore, these associative algebras have local automorphisms (resp. local derivations) that are not automorphisms (resp. derivations). We also establish a relationship between local automorphisms and local derivations via an exponential expression. We prove that the sets of local derivations of algebras $\\pi_2$ and $\\pi_3$ form Lie algebras with respect to the Lie brackets. Thus, we show that the Lie algebra problem from the Ayupov-Eldique-Kudaybergenov problems for local derivations of the algebras under consideration has a positive solution. The remaining problems from the Ayupov-Eldique-Kudaybergenov problems also have a positive solution for algebras $\\pi_2$ and $\\pi_3$.",
+    "enclosure": {},
+    "categories": [
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
     "title": "Why the Bethe Ansatz Works: A Structural Explanation via Interaction Propagation",
     "pubDate": "2026-04-14 04:00:00",
     "link": "https://arxiv.org/abs/2604.09844",
