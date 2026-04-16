@@ -1,5 +1,166 @@
 [
   {
+    "title": "Growth in noncommutative algebras and entropy in derived categories",
+    "pubDate": "2026-04-16 04:00:00",
+    "link": "https://arxiv.org/abs/2604.13373",
+    "guid": "oai:arXiv.org:2604.13373v1",
+    "author": "Dmitri Piontkovski",
+    "thumbnail": "",
+    "description": "arXiv:2604.13373v1 Announce Type: new \nAbstract: A noncommutative projective variety is defined, after Artin and Zhang, by a graded coherent algebra A, where the category of coherent sheaves is the quotient qgr(A) of the category of finitely presented graded modules by the subcategory of torsion modules. We consider the categorical and polynomial entropies of the Serre twist, that is, of the degree shift functor on the bounded derived category of qgr(A). These two types of entropy can be viewed as analogues of the dimension of the noncommutative variety.\n  We relate these invariants with the growth of the algebra. For algebras of finite global dimension, the entropies are bounded above by the growth entropy and the Gelfand--Kirillov dimension of the algebra. Moreover, these equalities hold for regular algebras, as well as for coordinate rings of smooth projective varieties. However, the polynomial entropy is zero for monomial algebras of polynomial growth, so in this case the inequality is strict.",
+    "content": "arXiv:2604.13373v1 Announce Type: new \nAbstract: A noncommutative projective variety is defined, after Artin and Zhang, by a graded coherent algebra A, where the category of coherent sheaves is the quotient qgr(A) of the category of finitely presented graded modules by the subcategory of torsion modules. We consider the categorical and polynomial entropies of the Serre twist, that is, of the degree shift functor on the bounded derived category of qgr(A). These two types of entropy can be viewed as analogues of the dimension of the noncommutative variety.\n  We relate these invariants with the growth of the algebra. For algebras of finite global dimension, the entropies are bounded above by the growth entropy and the Gelfand--Kirillov dimension of the algebra. Moreover, these equalities hold for regular algebras, as well as for coordinate rings of smooth projective varieties. However, the polynomial entropy is zero for monomial algebras of polynomial growth, so in this case the inequality is strict.",
+    "enclosure": {},
+    "categories": [
+      "math.RA",
+      "math.AG",
+      "math.KT"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Lie's Theorem for Supertropical Algebra",
+    "pubDate": "2026-04-16 04:00:00",
+    "link": "https://arxiv.org/abs/2604.13510",
+    "guid": "oai:arXiv.org:2604.13510v1",
+    "author": "Himadri Mukherjee, Askar Ali M",
+    "thumbnail": "",
+    "description": "arXiv:2604.13510v1 Announce Type: new \nAbstract: The aim of this paper is to prove a version of Lie's theorem for the supertropical algebra.",
+    "content": "arXiv:2604.13510v1 Announce Type: new \nAbstract: The aim of this paper is to prove a version of Lie's theorem for the supertropical algebra.",
+    "enclosure": {},
+    "categories": [
+      "math.RA",
+      "math.CO",
+      "math.RT"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Compositions of $n$-homomorphisms",
+    "pubDate": "2026-04-16 04:00:00",
+    "link": "https://arxiv.org/abs/2604.13619",
+    "guid": "oai:arXiv.org:2604.13619v1",
+    "author": "Darij Grinberg",
+    "thumbnail": "",
+    "description": "arXiv:2604.13619v1 Announce Type: new \nAbstract: We study $n$-homomorphisms in the sense of Khudaverdian--Voronov, but generalized to maps from arbitrary rings to arbitrary commutative rings. We show that the sum of an $n$-homomorphism and an $m$-homomorphism is an $\\left( n+m\\right) $-homomorphism, and that the composition of an $n$-homomorphism and an $m$-homomorphism is an $nm$-homomorphism. The proofs are entirely combinatorial.",
+    "content": "arXiv:2604.13619v1 Announce Type: new \nAbstract: We study $n$-homomorphisms in the sense of Khudaverdian--Voronov, but generalized to maps from arbitrary rings to arbitrary commutative rings. We show that the sum of an $n$-homomorphism and an $m$-homomorphism is an $\\left( n+m\\right) $-homomorphism, and that the composition of an $n$-homomorphism and an $m$-homomorphism is an $nm$-homomorphism. The proofs are entirely combinatorial.",
+    "enclosure": {},
+    "categories": [
+      "math.RA",
+      "math.CO"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Symbolic computation in cubic Jordan matrix algebras and in related structures",
+    "pubDate": "2026-04-16 04:00:00",
+    "link": "https://arxiv.org/abs/2604.13809",
+    "guid": "oai:arXiv.org:2604.13809v1",
+    "author": "Torben Wiedemann",
+    "thumbnail": "",
+    "description": "arXiv:2604.13809v1 Announce Type: new \nAbstract: We present CubicJordanMatrixAlg, a GAP package for symbolic computation in cubic Jordan matrix algebras and in related Lie-theoretic structures. As an application, we use it to compute certain (commutator) relations in $F_4$-graded groups that were constructed by De Medts and the author from cubic Jordan matrix algebras.",
+    "content": "arXiv:2604.13809v1 Announce Type: new \nAbstract: We present CubicJordanMatrixAlg, a GAP package for symbolic computation in cubic Jordan matrix algebras and in related Lie-theoretic structures. As an application, we use it to compute certain (commutator) relations in $F_4$-graded groups that were constructed by De Medts and the author from cubic Jordan matrix algebras.",
+    "enclosure": {},
+    "categories": [
+      "math.RA",
+      "math.GR"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Commutativity of centralizers in a coproduct of a free algebra and a polynomial algebra",
+    "pubDate": "2026-04-16 04:00:00",
+    "link": "https://arxiv.org/abs/2604.13916",
+    "guid": "oai:arXiv.org:2604.13916v1",
+    "author": "Jakob Jurij Snoj",
+    "thumbnail": "",
+    "description": "arXiv:2604.13916v1 Announce Type: new \nAbstract: We show that the centralizer of a nonscalar element in the coproduct $k\\langle X\\rangle *k[Y]$ of a free associative algebra and a polynomial algebra over a given field is commutative. For $k\\langle X \\rangle$ this is part of Bergman's centralizer theorem. Our proof relies on a reduction given in Bergman's proof and is of combinatorial nature, employing a strict order structure of the coproduct monoid.",
+    "content": "arXiv:2604.13916v1 Announce Type: new \nAbstract: We show that the centralizer of a nonscalar element in the coproduct $k\\langle X\\rangle *k[Y]$ of a free associative algebra and a polynomial algebra over a given field is commutative. For $k\\langle X \\rangle$ this is part of Bergman's centralizer theorem. Our proof relies on a reduction given in Bergman's proof and is of combinatorial nature, employing a strict order structure of the coproduct monoid.",
+    "enclosure": {},
+    "categories": [
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Global dimension of dg algebras via compact silting objects",
+    "pubDate": "2026-04-16 04:00:00",
+    "link": "https://arxiv.org/abs/2604.13698",
+    "guid": "oai:arXiv.org:2604.13698v1",
+    "author": "Panagiotis Kostas",
+    "thumbnail": "",
+    "description": "arXiv:2604.13698v1 Announce Type: cross \nAbstract: We introduce a notion of global dimension for a triangulated category relative to a compact silting object. We prove that the finiteness of this dimension is an intrinsic property of the triangulated category itself and, therefore, independent of the choice of the silting object. Focusing on the setup of connective differential graded (dg) algebras, we analyse the behaviour of global dimension under dg algebra homomorphisms and establish explicit bounds. This allows us to deduce a bound for the global dimension of certain dg quiver algebras. We also relate the regularity of the big singularity category of a proper connective dg algebra to the finiteness of its global dimension.",
+    "content": "arXiv:2604.13698v1 Announce Type: cross \nAbstract: We introduce a notion of global dimension for a triangulated category relative to a compact silting object. We prove that the finiteness of this dimension is an intrinsic property of the triangulated category itself and, therefore, independent of the choice of the silting object. Focusing on the setup of connective differential graded (dg) algebras, we analyse the behaviour of global dimension under dg algebra homomorphisms and establish explicit bounds. This allows us to deduce a bound for the global dimension of certain dg quiver algebras. We also relate the regularity of the big singularity category of a proper connective dg algebra to the finiteness of its global dimension.",
+    "enclosure": {},
+    "categories": [
+      "math.RT",
+      "math.CT",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "A constructive proof of Orzech's theorem",
+    "pubDate": "2026-04-16 04:00:00",
+    "link": "https://arxiv.org/abs/2604.13911",
+    "guid": "oai:arXiv.org:2604.13911v1",
+    "author": "Darij Grinberg",
+    "thumbnail": "",
+    "description": "arXiv:2604.13911v1 Announce Type: cross \nAbstract: Let $A$ be a commutative ring with unity, and $M$ a finitely generated $A$-module. In 1971, Morris Orzech showed that any $A$-module homomorphism from a submodule of $M$ to $M$ must be an isomorphism. We give a constructive proof of this fact using the Cayley--Hamilton theorem.",
+    "content": "arXiv:2604.13911v1 Announce Type: cross \nAbstract: Let $A$ be a commutative ring with unity, and $M$ a finitely generated $A$-module. In 1971, Morris Orzech showed that any $A$-module homomorphism from a submodule of $M$ to $M$ must be an isomorphism. We give a constructive proof of this fact using the Cayley--Hamilton theorem.",
+    "enclosure": {},
+    "categories": [
+      "math.AC",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "A double Sylvester determinant",
+    "pubDate": "2026-04-16 04:00:00",
+    "link": "https://arxiv.org/abs/1901.11109",
+    "guid": "oai:arXiv.org:1901.11109v3",
+    "author": "Darij Grinberg",
+    "thumbnail": "",
+    "description": "arXiv:1901.11109v3 Announce Type: replace \nAbstract: Given two $\\left( n+1\\right) \\times\\left( n+1\\right)$-matrices $A$ and $B$ over a commutative ring, and some $k\\in\\left\\{ 0,1,\\ldots,n\\right\\}$, we consider the $\\dbinom{n}{k}\\times\\dbinom{n}{k}$-matrix $W$ whose entries are $\\left( k+1\\right) \\times\\left( k+1\\right)$-minors of $A$ multiplied by corresponding $\\left( k+1\\right) \\times\\left( k+1\\right)$-minors of $B$. Here we require the minors to use the last row and the last column (which is why we obtain an $\\dbinom{n}{k}\\times\\dbinom{n}{k}$-matrix, not an $\\dbinom{n+1}{k+1}\\times\\dbinom{n+1}{k+1}$-matrix). We prove that the determinant $\\det W$ is a multiple of $\\det A$ if the $\\left( n+1,n+1\\right)$-th entry of $B$ is $0$. Furthermore, if the $\\left( n+1,n+1\\right)$-th entries of both $A$ and $B$ are $0$, then $\\det W$ is a multiple of $\\left( \\det A\\right) \\left( \\det B\\right)$. This extends a previous result of Olver and the author ( arXiv:1802.02900 ).",
+    "content": "arXiv:1901.11109v3 Announce Type: replace \nAbstract: Given two $\\left( n+1\\right) \\times\\left( n+1\\right)$-matrices $A$ and $B$ over a commutative ring, and some $k\\in\\left\\{ 0,1,\\ldots,n\\right\\}$, we consider the $\\dbinom{n}{k}\\times\\dbinom{n}{k}$-matrix $W$ whose entries are $\\left( k+1\\right) \\times\\left( k+1\\right)$-minors of $A$ multiplied by corresponding $\\left( k+1\\right) \\times\\left( k+1\\right)$-minors of $B$. Here we require the minors to use the last row and the last column (which is why we obtain an $\\dbinom{n}{k}\\times\\dbinom{n}{k}$-matrix, not an $\\dbinom{n+1}{k+1}\\times\\dbinom{n+1}{k+1}$-matrix). We prove that the determinant $\\det W$ is a multiple of $\\det A$ if the $\\left( n+1,n+1\\right)$-th entry of $B$ is $0$. Furthermore, if the $\\left( n+1,n+1\\right)$-th entries of both $A$ and $B$ are $0$, then $\\det W$ is a multiple of $\\left( \\det A\\right) \\left( \\det B\\right)$. This extends a previous result of Olver and the author ( arXiv:1802.02900 ).",
+    "enclosure": {},
+    "categories": [
+      "math.RA",
+      "math.CO"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Combinatorial Hopf algebras from restriction species with preorder cuts",
+    "pubDate": "2026-04-16 04:00:00",
+    "link": "https://arxiv.org/abs/2301.06479",
+    "guid": "oai:arXiv.org:2301.06479v2",
+    "author": "Gunnar Fl{\\o}ystad",
+    "thumbnail": "",
+    "description": "arXiv:2301.06479v2 Announce Type: replace \nAbstract: We get new Hopf algebras (HA): 1. A wealth of quotient HA's of the Malvenuto-Reutenauer HA (the Loday-Ronco HA being a special case). They consist of the permutations avoiding an {\\it arbitrary} set of permutations without global descents, 2. A HA of pairs of parking filtrations, and 3. Four HA of pairs of preorders.\n  New concepts in this setting are: 1. a category Set$_{{\\mathbb N}}$ whose objects are sets, but morphisms are represented by matrices of natural numbers, and 2. restriction species ${\\mathsf S}$ on sets coming with pairs of natural transformations $\\pi_1, \\pi_2 : {\\mathsf S} \\rightarrow$ Pre to the species of preorders. These induce two coproducts $\\Delta_1$ and $\\Delta_2$. Dualizing $\\Delta_1$ gives product $\\mu_1$ and coproduct $\\Delta_2$, giving bimonoid species.",
+    "content": "arXiv:2301.06479v2 Announce Type: replace \nAbstract: We get new Hopf algebras (HA): 1. A wealth of quotient HA's of the Malvenuto-Reutenauer HA (the Loday-Ronco HA being a special case). They consist of the permutations avoiding an {\\it arbitrary} set of permutations without global descents, 2. A HA of pairs of parking filtrations, and 3. Four HA of pairs of preorders.\n  New concepts in this setting are: 1. a category Set$_{{\\mathbb N}}$ whose objects are sets, but morphisms are represented by matrices of natural numbers, and 2. restriction species ${\\mathsf S}$ on sets coming with pairs of natural transformations $\\pi_1, \\pi_2 : {\\mathsf S} \\rightarrow$ Pre to the species of preorders. These induce two coproducts $\\Delta_1$ and $\\Delta_2$. Dualizing $\\Delta_1$ gives product $\\mu_1$ and coproduct $\\Delta_2$, giving bimonoid species.",
+    "enclosure": {},
+    "categories": [
+      "math.RA",
+      "math.CO"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "The Deligne-Simpson Problem",
+    "pubDate": "2026-04-16 04:00:00",
+    "link": "https://arxiv.org/abs/2509.11998",
+    "guid": "oai:arXiv.org:2509.11998v5",
+    "author": "William Crawley-Boevey, Andrew Hubery",
+    "thumbnail": "",
+    "description": "arXiv:2509.11998v5 Announce Type: replace \nAbstract: Given k similarity classes of invertible matrices, the Deligne-Simpson problem asks to determine whether or not one can find matrices in these classes whose product is the identity and with no common invariant subspace. The first author conjectured an answer in terms of an associated root system, and proved one implication in joint work with Shaw. In this paper we prove the other implication, thus confirming the conjecture.",
+    "content": "arXiv:2509.11998v5 Announce Type: replace \nAbstract: Given k similarity classes of invertible matrices, the Deligne-Simpson problem asks to determine whether or not one can find matrices in these classes whose product is the identity and with no common invariant subspace. The first author conjectured an answer in terms of an associated root system, and proved one implication in joint work with Shaw. In this paper we prove the other implication, thus confirming the conjecture.",
+    "enclosure": {},
+    "categories": [
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
     "title": "Graded Equivalence for Graded Idempotent Rings",
     "pubDate": "2026-04-15 04:00:00",
     "link": "https://arxiv.org/abs/2604.12355",
