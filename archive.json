@@ -1,5 +1,167 @@
 [
   {
+    "title": "Varieties of nilpotent Jordan superalgebras of dimension five",
+    "pubDate": "2026-04-17 04:00:00",
+    "link": "https://arxiv.org/abs/2604.14425",
+    "guid": "oai:arXiv.org:2604.14425v1",
+    "author": "Isabel Hern\\'andez, Laiz Valim da Rocha, Rodrigo Lucas Rodrigues",
+    "thumbnail": "",
+    "description": "arXiv:2604.14425v1 Announce Type: new \nAbstract: The paper is devoted to the description of the varieties of complex 5-dimensional nilpotent Jordan superalgebras. We find all representatives for the isomorphism classes, using the Jordan normal form, results of simultaneous matrix triangularization, the Jordan-Kronecker theorem for a pair of skew-symmetric bilinear forms and similar arguments developed for $\\Delta$-modules by Burde and Grunewald. We also provide a complete geometric classification, determining the irreducible components of the corresponding varieties and describing all possible degenerations and non-degenerations between these superalgebras, in particular, applying some $\\mathbb{Z}_2$-graded subspaces as invariants.",
+    "content": "arXiv:2604.14425v1 Announce Type: new \nAbstract: The paper is devoted to the description of the varieties of complex 5-dimensional nilpotent Jordan superalgebras. We find all representatives for the isomorphism classes, using the Jordan normal form, results of simultaneous matrix triangularization, the Jordan-Kronecker theorem for a pair of skew-symmetric bilinear forms and similar arguments developed for $\\Delta$-modules by Burde and Grunewald. We also provide a complete geometric classification, determining the irreducible components of the corresponding varieties and describing all possible degenerations and non-degenerations between these superalgebras, in particular, applying some $\\mathbb{Z}_2$-graded subspaces as invariants.",
+    "enclosure": {},
+    "categories": [
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Projector additive group codes",
+    "pubDate": "2026-04-17 04:00:00",
+    "link": "https://arxiv.org/abs/2604.15158",
+    "guid": "oai:arXiv.org:2604.15158v1",
+    "author": "Javier de la Cruz",
+    "thumbnail": "",
+    "description": "arXiv:2604.15158v1 Announce Type: new \nAbstract: Let $F=\\mathbb{F}_q$ and let $K=\\mathbb{F}_{q^m}$ be a finite extension. An additive group code is an $FG$-submodule of the group algebra $KG$. In this paper, we introduce projector additive group codes and restricted projector additive group codes as additive counterparts of idempotent group codes in the classical theory of group codes. More precisely, they are defined as images and restrictions, respectively, of $FG$-linear projectors on $KG$. This perspective is motivated by the fact that idempotent elements of $KG$ do not yield a sufficiently general and natural algebraic framework for the study of additive left group codes. Projector additive left group codes coincide precisely with the projective left $FG$-submodules of $KG$. Consequently, in the semisimple case every additive left group code arises in this way, whereas in the non-semisimple case the projector construction captures exactly the projective ones. We further relate trace-Euclidean and trace-Hermitian duality to adjoint projectors, establish criteria for the LCD and self-dual cases, study the Murray--von Neumann equivalence of projectors, and interpret quotients by orthogonal codes in terms of module duals.",
+    "content": "arXiv:2604.15158v1 Announce Type: new \nAbstract: Let $F=\\mathbb{F}_q$ and let $K=\\mathbb{F}_{q^m}$ be a finite extension. An additive group code is an $FG$-submodule of the group algebra $KG$. In this paper, we introduce projector additive group codes and restricted projector additive group codes as additive counterparts of idempotent group codes in the classical theory of group codes. More precisely, they are defined as images and restrictions, respectively, of $FG$-linear projectors on $KG$. This perspective is motivated by the fact that idempotent elements of $KG$ do not yield a sufficiently general and natural algebraic framework for the study of additive left group codes. Projector additive left group codes coincide precisely with the projective left $FG$-submodules of $KG$. Consequently, in the semisimple case every additive left group code arises in this way, whereas in the non-semisimple case the projector construction captures exactly the projective ones. We further relate trace-Euclidean and trace-Hermitian duality to adjoint projectors, establish criteria for the LCD and self-dual cases, study the Murray--von Neumann equivalence of projectors, and interpret quotients by orthogonal codes in terms of module duals.",
+    "enclosure": {},
+    "categories": [
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Matrices over Finite Fields of Characteristic 2 as Sums of Diagonalizable and Square-Zero Matrices",
+    "pubDate": "2026-04-17 04:00:00",
+    "link": "https://arxiv.org/abs/2604.15286",
+    "guid": "oai:arXiv.org:2604.15286v1",
+    "author": "Peter Danchev, Esther Garc\\'ia, Miguel G\\'omez Lozano",
+    "thumbnail": "",
+    "description": "arXiv:2604.15286v1 Announce Type: new \nAbstract: We investigate the problem asking when any square matrix whose entries lie in a finite field of characteristic 2 is decomposable into the sum of a diagonalizable matrix and a nilpotent matrix with index of nilpotency at most 2 and, as a result, we completely resolve this question in the affirmative for any finite field of characteristic 2 having strictly more than three elements. Our main theorem of that type, combined with results from our recent publication in Linear Algebra &amp; Appl. (2026) (see [7]), totally settle this problem for all finite fields different from $\\mathbb{F}_2$ and $\\mathbb{F}_3$. However, in this paper we also prove that each matrix over $\\mathbb{F}_2$ is expressible as the sum of a potent matrix with index of potency not exceeding 4 and a nilpotent matrix with index of nilpotency not exceeding 2, thus substantiating recent examples due to \\v{S}ter in Linear Algebra &amp; Appl. (2018) and Shitov in Indag. Math. (2019) (see, respectively, [9] and [8]).",
+    "content": "arXiv:2604.15286v1 Announce Type: new \nAbstract: We investigate the problem asking when any square matrix whose entries lie in a finite field of characteristic 2 is decomposable into the sum of a diagonalizable matrix and a nilpotent matrix with index of nilpotency at most 2 and, as a result, we completely resolve this question in the affirmative for any finite field of characteristic 2 having strictly more than three elements. Our main theorem of that type, combined with results from our recent publication in Linear Algebra &amp; Appl. (2026) (see [7]), totally settle this problem for all finite fields different from $\\mathbb{F}_2$ and $\\mathbb{F}_3$. However, in this paper we also prove that each matrix over $\\mathbb{F}_2$ is expressible as the sum of a potent matrix with index of potency not exceeding 4 and a nilpotent matrix with index of nilpotency not exceeding 2, thus substantiating recent examples due to \\v{S}ter in Linear Algebra &amp; Appl. (2018) and Shitov in Indag. Math. (2019) (see, respectively, [9] and [8]).",
+    "enclosure": {},
+    "categories": [
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Failure of Weak Approximation in Adjoint Groups",
+    "pubDate": "2026-04-17 04:00:00",
+    "link": "https://arxiv.org/abs/2604.14420",
+    "guid": "oai:arXiv.org:2604.14420v1",
+    "author": "Chayansudha Biswas",
+    "thumbnail": "",
+    "description": "arXiv:2604.14420v1 Announce Type: cross \nAbstract: Platonov in 1991 conjectured that adjoint groups are rational as varieties over arbitrary infinite fields, and as a consequence have weak approximation. The rationality part of the conjecture was disproved by Merkurjev in 1996, but the question about weak approximation remained open. We settle this in the negative.",
+    "content": "arXiv:2604.14420v1 Announce Type: cross \nAbstract: Platonov in 1991 conjectured that adjoint groups are rational as varieties over arbitrary infinite fields, and as a consequence have weak approximation. The rationality part of the conjecture was disproved by Merkurjev in 1996, but the question about weak approximation remained open. We settle this in the negative.",
+    "enclosure": {},
+    "categories": [
+      "math.AG",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Noether's normalization in iterated skew polynomial rings",
+    "pubDate": "2026-04-17 04:00:00",
+    "link": "https://arxiv.org/abs/2510.03775",
+    "guid": "oai:arXiv.org:2510.03775v2",
+    "author": "Dinh Van Hoang, Phan Thanh Toan",
+    "thumbnail": "",
+    "description": "arXiv:2510.03775v2 Announce Type: replace \nAbstract: The classical Noether Normalization Lemma states that if $S$ is a finitely generated algebra over a field $k$, then there exist elements $x_1,\\dots,x_n$ which are algebraically independent over $k$ such that $S$ is a finite module over $k[x_1,\\dots,x_n]$. This lemma has been studied intensively in different flavors. In 2024, Elad Paran and Thieu N. Vo successfully generalized this lemma for the case when $S$ is a quotient ring of the skew polynomial ring $D[x_1,\\dots,x_n;\\sigma_1,\\dots,\\sigma_n]$. In this paper, we investigate this lemma in a more general setting when $S$ is a quotient ring of an iterated skew polynomial ring $D[x_1;\\sigma_1,\\delta_1]\\dots[x_n;\\sigma_n,\\delta_n]$. We extend several key results of Elad Paran and Thieu N. Vo to this broader context and introduce a new version of Combinatorial Nullstellensatz over division rings.",
+    "content": "arXiv:2510.03775v2 Announce Type: replace \nAbstract: The classical Noether Normalization Lemma states that if $S$ is a finitely generated algebra over a field $k$, then there exist elements $x_1,\\dots,x_n$ which are algebraically independent over $k$ such that $S$ is a finite module over $k[x_1,\\dots,x_n]$. This lemma has been studied intensively in different flavors. In 2024, Elad Paran and Thieu N. Vo successfully generalized this lemma for the case when $S$ is a quotient ring of the skew polynomial ring $D[x_1,\\dots,x_n;\\sigma_1,\\dots,\\sigma_n]$. In this paper, we investigate this lemma in a more general setting when $S$ is a quotient ring of an iterated skew polynomial ring $D[x_1;\\sigma_1,\\delta_1]\\dots[x_n;\\sigma_n,\\delta_n]$. We extend several key results of Elad Paran and Thieu N. Vo to this broader context and introduce a new version of Combinatorial Nullstellensatz over division rings.",
+    "enclosure": {},
+    "categories": [
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Kleene and Stone algebras of rough sets induced by reflexive relations",
+    "pubDate": "2026-04-17 04:00:00",
+    "link": "https://arxiv.org/abs/2603.26883",
+    "guid": "oai:arXiv.org:2603.26883v2",
+    "author": "Jouni J\\&quot;arvinen, S\\'andor Radeleczki",
+    "thumbnail": "",
+    "description": "arXiv:2603.26883v2 Announce Type: replace \nAbstract: We consider Kleene and Stone algebras defined on the completion DM(RS) of the ordered set of rough sets induced by a reflexive relation. We focus on cases where the completion forms a spatial and completely distributive lattice. We derive the conditions under which DM(RS) is a regular pseudocomplemented Kleene algebra and a completely distributive double Stone algebra. Finally, we describe the reflexive relations for which DM(RS) forms a regular double Stone algebra, which is the same structure as in the case of equivalences. Our results generalise earlier findings on algebras of rough sets induced by equivalences, quasiorders, and tolerance relations.",
+    "content": "arXiv:2603.26883v2 Announce Type: replace \nAbstract: We consider Kleene and Stone algebras defined on the completion DM(RS) of the ordered set of rough sets induced by a reflexive relation. We focus on cases where the completion forms a spatial and completely distributive lattice. We derive the conditions under which DM(RS) is a regular pseudocomplemented Kleene algebra and a completely distributive double Stone algebra. Finally, we describe the reflexive relations for which DM(RS) forms a regular double Stone algebra, which is the same structure as in the case of equivalences. Our results generalise earlier findings on algebras of rough sets induced by equivalences, quasiorders, and tolerance relations.",
+    "enclosure": {},
+    "categories": [
+      "math.RA",
+      "cs.LO"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "The Fundamental theorem of tropical differential algebra over nontrivially valued fields and the radius of convergence of nonarchimedean differential equations",
+    "pubDate": "2026-04-17 04:00:00",
+    "link": "https://arxiv.org/abs/2303.12124",
+    "guid": "oai:arXiv.org:2303.12124v3",
+    "author": "Francesco Gallinaro, Stefano Mereta",
+    "thumbnail": "",
+    "description": "arXiv:2303.12124v3 Announce Type: replace-cross \nAbstract: We prove a fundamental theorem for tropical partial differential equations, analogous to the fundamental theorem of tropical geometry in this context. We extend results from Aroca et al., Falkensteiner et al. and from Fink and Toghani for the case of trivial valuation as introduced by Grigoriev to differential equations with power series coefficients over any valued field. Crucial ingredients are the framework for tropical partial differential equations introduced by Giansiracusa and Mereta and a result on infinite intersections of projections of fibers of tropicalizations, which we prove using Hrushovski and Loeser's model-theoretic interpretation of Berkovich analytification. As a corollary of the fundamental theorem, we show that the radius of convergence of solutions of an ordinary differential equation over a nontrivially valued field can be computed tropically.",
+    "content": "arXiv:2303.12124v3 Announce Type: replace-cross \nAbstract: We prove a fundamental theorem for tropical partial differential equations, analogous to the fundamental theorem of tropical geometry in this context. We extend results from Aroca et al., Falkensteiner et al. and from Fink and Toghani for the case of trivial valuation as introduced by Grigoriev to differential equations with power series coefficients over any valued field. Crucial ingredients are the framework for tropical partial differential equations introduced by Giansiracusa and Mereta and a result on infinite intersections of projections of fibers of tropicalizations, which we prove using Hrushovski and Loeser's model-theoretic interpretation of Berkovich analytification. As a corollary of the fundamental theorem, we show that the radius of convergence of solutions of an ordinary differential equation over a nontrivially valued field can be computed tropically.",
+    "enclosure": {},
+    "categories": [
+      "math.AG",
+      "math.AC",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Grading of homogeneous localization by the Grothendieck group",
+    "pubDate": "2026-04-17 04:00:00",
+    "link": "https://arxiv.org/abs/2309.15620",
+    "guid": "oai:arXiv.org:2309.15620v2",
+    "author": "Abolfazl Tarizadeh",
+    "thumbnail": "",
+    "description": "arXiv:2309.15620v2 Announce Type: replace-cross \nAbstract: The main result of this article is a fantastic generalization of a classical result in graded ring theory. In fact, our result states that if $S$ is a multiplicative set of homogeneous elements of an $M$-graded commutative ring $R=\\bigoplus\\limits_{m\\in M}R_{m}$ with $M$ a commutative monoid, then the localization ring $S^{-1}R=\\bigoplus\\limits_{x\\in G}(S^{-1}R)_{x}$ is a $G$-graded ring where $G$ is the Grothendieck group of $M$ and each homogeneous component $(S^{-1}R)_{x}$ is the set of all fractions $f\\in S^{-1}R$ such that $f=0$ or it is of the form $f=r/s$ where $r$ is a homogeneous element of $R$ and $x=[\\dg(r),\\dg(s)]$. As an application, ...",
+    "content": "arXiv:2309.15620v2 Announce Type: replace-cross \nAbstract: The main result of this article is a fantastic generalization of a classical result in graded ring theory. In fact, our result states that if $S$ is a multiplicative set of homogeneous elements of an $M$-graded commutative ring $R=\\bigoplus\\limits_{m\\in M}R_{m}$ with $M$ a commutative monoid, then the localization ring $S^{-1}R=\\bigoplus\\limits_{x\\in G}(S^{-1}R)_{x}$ is a $G$-graded ring where $G$ is the Grothendieck group of $M$ and each homogeneous component $(S^{-1}R)_{x}$ is the set of all fractions $f\\in S^{-1}R$ such that $f=0$ or it is of the form $f=r/s$ where $r$ is a homogeneous element of $R$ and $x=[\\dg(r),\\dg(s)]$. As an application, ...",
+    "enclosure": {},
+    "categories": [
+      "math.AC",
+      "math.AG",
+      "math.GR",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Cancellation of a critical pair in discrete Morse theory and its effect on (co)boundary operators",
+    "pubDate": "2026-04-17 04:00:00",
+    "link": "https://arxiv.org/abs/2502.06520",
+    "guid": "oai:arXiv.org:2502.06520v3",
+    "author": "Anupam Mondal, Sajal Mukherjee, Pritam Chandra Pramanik",
+    "thumbnail": "",
+    "description": "arXiv:2502.06520v3 Announce Type: replace-cross \nAbstract: Discrete Morse theory helps us compute the homology groups of simplicial complexes in an efficient manner. A \"good\" gradient vector field reduces the number of critical simplices, simplifying the homology calculations by reducing them to the computation of homology groups of a simpler chain complex. This homology computation hinges on an efficient enumeration of gradient trajectories. The technique of cancelling pairs of critical simplices reduces the number of critical simplices, though it also perturbs the gradient trajectories. In this article, in a purely combinatorial manner, we derive an explicit formula for computing the modified boundary operators after cancelling a critical pair, in terms of the original boundary operators. The same formula can be obtained through a sequence of elementary row operations on the original boundary operators. Thus, it eliminates the need of enumeration of the new gradient trajectories. We also obtain a similar result for coboundary operators.",
+    "content": "arXiv:2502.06520v3 Announce Type: replace-cross \nAbstract: Discrete Morse theory helps us compute the homology groups of simplicial complexes in an efficient manner. A \"good\" gradient vector field reduces the number of critical simplices, simplifying the homology calculations by reducing them to the computation of homology groups of a simpler chain complex. This homology computation hinges on an efficient enumeration of gradient trajectories. The technique of cancelling pairs of critical simplices reduces the number of critical simplices, though it also perturbs the gradient trajectories. In this article, in a purely combinatorial manner, we derive an explicit formula for computing the modified boundary operators after cancelling a critical pair, in terms of the original boundary operators. The same formula can be obtained through a sequence of elementary row operations on the original boundary operators. Thus, it eliminates the need of enumeration of the new gradient trajectories. We also obtain a similar result for coboundary operators.",
+    "enclosure": {},
+    "categories": [
+      "math.CO",
+      "math.AT",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Splitting in a complete local ring and decomposition its group of units",
+    "pubDate": "2026-04-17 04:00:00",
+    "link": "https://arxiv.org/abs/2508.08753",
+    "guid": "oai:arXiv.org:2508.08753v5",
+    "author": "Abolfazl Tarizadeh",
+    "thumbnail": "",
+    "description": "arXiv:2508.08753v5 Announce Type: replace-cross \nAbstract: Let $(R,M,k)$ be a complete local ring (not necessarily Noetherian). As the first main result of this article, we prove that in the unequal characteristic case $\\Char(R)\\neq\\Char(k)$, the natural surjective map between the groups of units $R^{\\ast}\\rightarrow k^{\\ast}$ admits a splitting. \\\\ Next, we reprove by a new method that in the equi-characteristic case $\\Char(R)=\\Char(k)$, the natural surjective ring map $R\\rightarrow k$ admits a splitting. In our proof there is no need for the existence of the coefficient fields for equi-characteristic complete local rings, whose existence is the most difficult part of the known proof. \\\\ As an application, we show that for any complete local ring $(R,M,k)$ the following short exact sequence of Abelian groups: $$\\xymatrix{1\\ar[r]&amp;1+M\\ar[r]&amp; R^{\\ast}\\ar[r]&amp;k^{\\ast} \\ar[r]&amp;1}$$ is always split. In particular, we have an isomorphism of Abelian groups $R^{\\ast}\\simeq(1+M)\\times k^{\\ast}$. We also show with an example that the above exact sequence does not split for many incomplete local rings.",
+    "content": "arXiv:2508.08753v5 Announce Type: replace-cross \nAbstract: Let $(R,M,k)$ be a complete local ring (not necessarily Noetherian). As the first main result of this article, we prove that in the unequal characteristic case $\\Char(R)\\neq\\Char(k)$, the natural surjective map between the groups of units $R^{\\ast}\\rightarrow k^{\\ast}$ admits a splitting. \\\\ Next, we reprove by a new method that in the equi-characteristic case $\\Char(R)=\\Char(k)$, the natural surjective ring map $R\\rightarrow k$ admits a splitting. In our proof there is no need for the existence of the coefficient fields for equi-characteristic complete local rings, whose existence is the most difficult part of the known proof. \\\\ As an application, we show that for any complete local ring $(R,M,k)$ the following short exact sequence of Abelian groups: $$\\xymatrix{1\\ar[r]&amp;1+M\\ar[r]&amp; R^{\\ast}\\ar[r]&amp;k^{\\ast} \\ar[r]&amp;1}$$ is always split. In particular, we have an isomorphism of Abelian groups $R^{\\ast}\\simeq(1+M)\\times k^{\\ast}$. We also show with an example that the above exact sequence does not split for many incomplete local rings.",
+    "enclosure": {},
+    "categories": [
+      "math.AC",
+      "math.AG",
+      "math.GR",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
     "title": "Growth in noncommutative algebras and entropy in derived categories",
     "pubDate": "2026-04-16 04:00:00",
     "link": "https://arxiv.org/abs/2604.13373",
