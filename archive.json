@@ -1,5 +1,167 @@
 [
   {
+    "title": "Morita Invariance, Categorical Obstructions, and Dimension Transfer for \\texorpdfstring{$C4$}{C4}, \\texorpdfstring{$C4^{\\ast}$}{C4*}, Strongly \\texorpdfstring{$C4^{\\ast}$}{C4*}, and Semi-Weak-CS Modules",
+    "pubDate": "2026-04-21 04:00:00",
+    "link": "https://arxiv.org/abs/2604.16326",
+    "guid": "oai:arXiv.org:2604.16326v1",
+    "author": "Chandrasekhar Gokavarapu (Department of Mathematics, Government College)",
+    "thumbnail": "",
+    "description": "arXiv:2604.16326v1 Announce Type: new \nAbstract: Let $R$ and $S$ be rings with equivalent module categories. We study the Morita behavior of the conditions $C4$, $C4^{\\ast}$, strongly $C4^{\\ast}$, and semi-weak-CS. The point is categorical. These conditions are expressed through direct summands, subobjects, essentiality, and finite decomposition data. Their Morita status must therefore be determined at the level of transported witness structure.\n  We prove that the four classical conditions are Morita invariant. The $C4$ condition is treated through finite summand witness schemes. The $C4^{\\ast}$ condition is treated through the absence of subobject-level $C4$ defects. The semi-weak-CS condition is treated through the absence of admissible semisimple obstruction pairs. The strongly $C4^{\\ast}$ condition is then recovered as the simultaneous vanishing of the two corresponding defect types.\n  From this point we derive ring-level characterizations, together with matrix and full-corner criteria. We also isolate obstruction and impossibility statements showing that the strong theory does not collapse into the pure $C4^{\\ast}$ theory, and that the semi-weak-CS layer cannot be read off from ideal-theoretic $C4$ data alone. We then introduce finite depth and finite arity extensions of the $C4$ framework and prove their Morita invariance in the same witness-theoretic form. Finally, we formulate a categorical reconstruction principle showing that the $C4$-type theory of a module is determined by its transported defect geometry, and we indicate the conditional semiring path suggested by this formalism.\n  The paper is purely algebraic. No empirical input is used. The proofs rest on categorical transport of finite witness data and on the separation between local $C4$ defects and semisimple essentiality obstructions.",
+    "content": "arXiv:2604.16326v1 Announce Type: new \nAbstract: Let $R$ and $S$ be rings with equivalent module categories. We study the Morita behavior of the conditions $C4$, $C4^{\\ast}$, strongly $C4^{\\ast}$, and semi-weak-CS. The point is categorical. These conditions are expressed through direct summands, subobjects, essentiality, and finite decomposition data. Their Morita status must therefore be determined at the level of transported witness structure.\n  We prove that the four classical conditions are Morita invariant. The $C4$ condition is treated through finite summand witness schemes. The $C4^{\\ast}$ condition is treated through the absence of subobject-level $C4$ defects. The semi-weak-CS condition is treated through the absence of admissible semisimple obstruction pairs. The strongly $C4^{\\ast}$ condition is then recovered as the simultaneous vanishing of the two corresponding defect types.\n  From this point we derive ring-level characterizations, together with matrix and full-corner criteria. We also isolate obstruction and impossibility statements showing that the strong theory does not collapse into the pure $C4^{\\ast}$ theory, and that the semi-weak-CS layer cannot be read off from ideal-theoretic $C4$ data alone. We then introduce finite depth and finite arity extensions of the $C4$ framework and prove their Morita invariance in the same witness-theoretic form. Finally, we formulate a categorical reconstruction principle showing that the $C4$-type theory of a module is determined by its transported defect geometry, and we indicate the conditional semiring path suggested by this formalism.\n  The paper is purely algebraic. No empirical input is used. The proofs rest on categorical transport of finite witness data and on the separation between local $C4$ defects and semisimple essentiality obstructions.",
+    "enclosure": {},
+    "categories": [
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Hochschild cohomology and lifts of endomorphisms",
+    "pubDate": "2026-04-21 04:00:00",
+    "link": "https://arxiv.org/abs/2604.16636",
+    "guid": "oai:arXiv.org:2604.16636v1",
+    "author": "Niels Lauritzen, Jesper Funch Thomsen",
+    "thumbnail": "",
+    "description": "arXiv:2604.16636v1 Announce Type: new \nAbstract: We study when algebra endomorphisms can be lifted to first-order flat lifts. To a first-order flat lift of an algebra and an endomorphism, we associate a canonical class in Hochschild cohomology with coefficients in a naturally twisted bimodule. The cohomology class vanishes exactly when the endomorphism admits a multiplicative lift.\n  For an Azumaya algebra of constant rank over a formally smooth center, we prove that an endomorphism lifts if and only if the induced endomorphism of the center preserves the Poisson structure given by the lift of the algebra.",
+    "content": "arXiv:2604.16636v1 Announce Type: new \nAbstract: We study when algebra endomorphisms can be lifted to first-order flat lifts. To a first-order flat lift of an algebra and an endomorphism, we associate a canonical class in Hochschild cohomology with coefficients in a naturally twisted bimodule. The cohomology class vanishes exactly when the endomorphism admits a multiplicative lift.\n  For an Azumaya algebra of constant rank over a formally smooth center, we prove that an endomorphism lifts if and only if the induced endomorphism of the center preserves the Poisson structure given by the lift of the algebra.",
+    "enclosure": {},
+    "categories": [
+      "math.RA",
+      "math.AG",
+      "math.QA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "On the isotropy of differential Ore extensions",
+    "pubDate": "2026-04-21 04:00:00",
+    "link": "https://arxiv.org/abs/2604.17161",
+    "guid": "oai:arXiv.org:2604.17161v1",
+    "author": "Rene Baltazar, Leonardo Duarte Silva, Grasiela Martini",
+    "thumbnail": "",
+    "description": "arXiv:2604.17161v1 Announce Type: new \nAbstract: Let Ah = k[x][t; d] be the differential Ore extension. We study the action of the automorphism group of Ah on the derivations of Ah and explicitly describe, using Nowicki's decomposition of the derivations of Ah, the isotropy groups of this action. More precisely, we first obtain an explicit description of the automorphism group of Ah for deg(h) &gt;= 1. Then we determine the isotropy groups of derivations of the form D = ad_w + Delta_s(x), which exhaust all derivations in the square-free case, that is, when gcd(h,h') = 1. In the singular case, where gcd(h,h') is not equal to 1 and special derivations of type EH appear, we show that the isotropy problem is governed by a suitable localization and by the element w* = w + psi^(-1)H, where psi = gcd(h,h'). This yields a general criterion for the isotropy of a derivation of the form D = ad_w + EH + Delta_s(x). Finally, we provide explicit examples illustrating the new phenomena that arise in this setting.",
+    "content": "arXiv:2604.17161v1 Announce Type: new \nAbstract: Let Ah = k[x][t; d] be the differential Ore extension. We study the action of the automorphism group of Ah on the derivations of Ah and explicitly describe, using Nowicki's decomposition of the derivations of Ah, the isotropy groups of this action. More precisely, we first obtain an explicit description of the automorphism group of Ah for deg(h) &gt;= 1. Then we determine the isotropy groups of derivations of the form D = ad_w + Delta_s(x), which exhaust all derivations in the square-free case, that is, when gcd(h,h') = 1. In the singular case, where gcd(h,h') is not equal to 1 and special derivations of type EH appear, we show that the isotropy problem is governed by a suitable localization and by the element w* = w + psi^(-1)H, where psi = gcd(h,h'). This yields a general criterion for the isotropy of a derivation of the form D = ad_w + EH + Delta_s(x). Finally, we provide explicit examples illustrating the new phenomena that arise in this setting.",
+    "enclosure": {},
+    "categories": [
+      "math.RA",
+      "math.GR"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "A note on $n$-Jordan homomorphisms",
+    "pubDate": "2026-04-21 04:00:00",
+    "link": "https://arxiv.org/abs/2604.17544",
+    "guid": "oai:arXiv.org:2604.17544v1",
+    "author": "M. El Azhari",
+    "thumbnail": "",
+    "description": "arXiv:2604.17544v1 Announce Type: new \nAbstract: By using a variation of a theorem on $n$-Jordan homomorphisms due to Herstein, we deduce the following G. An's result: Let $ A $ and $ B $ be two rings where $ A $ has a unit and $ char(B)&gt; n. $ If every Jordan homomorphism from $ A $ into $ B $ is a homomorphism (anti-homomorphism), then every $n$-Jordan homomorphism from $ A $ into $ B $ is an $n$-homomorphism (anti-$n$-homomorphism).",
+    "content": "arXiv:2604.17544v1 Announce Type: new \nAbstract: By using a variation of a theorem on $n$-Jordan homomorphisms due to Herstein, we deduce the following G. An's result: Let $ A $ and $ B $ be two rings where $ A $ has a unit and $ char(B)&gt; n. $ If every Jordan homomorphism from $ A $ into $ B $ is a homomorphism (anti-homomorphism), then every $n$-Jordan homomorphism from $ A $ into $ B $ is an $n$-homomorphism (anti-$n$-homomorphism).",
+    "enclosure": {},
+    "categories": [
+      "math.RA",
+      "math.FA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "The Jordan multiplication semigroup of matrix algebras is the full endomorphism semigroup",
+    "pubDate": "2026-04-21 04:00:00",
+    "link": "https://arxiv.org/abs/2604.17664",
+    "guid": "oai:arXiv.org:2604.17664v1",
+    "author": "Ilja Gogi\\'c, Matija Kazalicki, Mateo Toma\\v{s}evi\\'c",
+    "thumbnail": "",
+    "description": "arXiv:2604.17664v1 Announce Type: new \nAbstract: Let $\\mathbb{K}$ be a field of characteristic different from $2$, and let $M_n(\\mathbb{K})$ be the algebra of all $n\\times n$ matrices over $\\mathbb{K}$. We consider the corresponding special Jordan algebra $\\mathcal{A}:=M_n(\\mathbb{K})^+$ with symmetrized product $A\\circ B:=(AB+BA)/2$, and write $\\mathcal{A}_{\\mathrm v}:=M_n(\\mathbb{K})$ for the underlying $\\mathbb{K}$-vector space of $\\mathcal{A}$. For $A\\in\\mathcal{A}$, let $\\mathrm{L}_A(X):=A\\circ X$ be the multiplication operator. We consider the Jordan multiplication semigroup generated by all multiplication operators, \\[ \\mathrm{JMS}(\\mathcal{A}):=\\langle \\mathrm{L}_A:A\\in\\mathcal{A}\\rangle\\subseteq \\mathrm{End}_{\\mathbb{K}}(\\mathcal{A}_{\\mathrm v}). \\] We prove that $\\mathrm{JMS}(\\mathcal{A})=\\mathrm{End}_{\\mathbb{K}}(\\mathcal{A}_{\\mathrm v})$. Equivalently, every $\\mathbb{K}$-linear endomorphism of $\\mathcal{A}_{\\mathrm v}$ is a composition of multiplication operators. The proof is primarily linear-algebraic. The main step is to show that $\\mathrm{SL}(\\mathcal{A}_{\\mathrm v})\\subseteq \\mathrm{JMS}(\\mathcal{A})$ by constructing elementary transvections inside the semigroup. We then prove determinant surjectivity on the unit group of $\\mathrm{JMS}(\\mathcal{A})$ and combine it with the existence of a singular element of rank $n^2-1$ to obtain the full endomorphism semigroup. In the finite-field case, the determinant-surjectivity step is established via Jacobi-sum estimates.",
+    "content": "arXiv:2604.17664v1 Announce Type: new \nAbstract: Let $\\mathbb{K}$ be a field of characteristic different from $2$, and let $M_n(\\mathbb{K})$ be the algebra of all $n\\times n$ matrices over $\\mathbb{K}$. We consider the corresponding special Jordan algebra $\\mathcal{A}:=M_n(\\mathbb{K})^+$ with symmetrized product $A\\circ B:=(AB+BA)/2$, and write $\\mathcal{A}_{\\mathrm v}:=M_n(\\mathbb{K})$ for the underlying $\\mathbb{K}$-vector space of $\\mathcal{A}$. For $A\\in\\mathcal{A}$, let $\\mathrm{L}_A(X):=A\\circ X$ be the multiplication operator. We consider the Jordan multiplication semigroup generated by all multiplication operators, \\[ \\mathrm{JMS}(\\mathcal{A}):=\\langle \\mathrm{L}_A:A\\in\\mathcal{A}\\rangle\\subseteq \\mathrm{End}_{\\mathbb{K}}(\\mathcal{A}_{\\mathrm v}). \\] We prove that $\\mathrm{JMS}(\\mathcal{A})=\\mathrm{End}_{\\mathbb{K}}(\\mathcal{A}_{\\mathrm v})$. Equivalently, every $\\mathbb{K}$-linear endomorphism of $\\mathcal{A}_{\\mathrm v}$ is a composition of multiplication operators. The proof is primarily linear-algebraic. The main step is to show that $\\mathrm{SL}(\\mathcal{A}_{\\mathrm v})\\subseteq \\mathrm{JMS}(\\mathcal{A})$ by constructing elementary transvections inside the semigroup. We then prove determinant surjectivity on the unit group of $\\mathrm{JMS}(\\mathcal{A})$ and combine it with the existence of a singular element of rank $n^2-1$ to obtain the full endomorphism semigroup. In the finite-field case, the determinant-surjectivity step is established via Jacobi-sum estimates.",
+    "enclosure": {},
+    "categories": [
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Rigidity and Cohomology of Seaweed Lie Algebras",
+    "pubDate": "2026-04-21 04:00:00",
+    "link": "https://arxiv.org/abs/2604.17675",
+    "guid": "oai:arXiv.org:2604.17675v1",
+    "author": "Vincent E. Coll, Jr., Alan Hylton",
+    "thumbnail": "",
+    "description": "arXiv:2604.17675v1 Announce Type: new \nAbstract: Seaweed (biparabolic) subalgebras form a large and structurally rich class of subalgebras of simple Lie algebras. We determine their adjoint cohomology.\n  If $\\mathfrak{s}$ is an indecomposable seaweed subalgebra of a complex simple Lie algebra, then \\[ H^\\ast(\\mathfrak{s},\\mathfrak{s})=0, \\] and hence $\\mathfrak{s}$ is absolutely rigid. If $\\mathfrak{s}$ is decomposable, then the Coll--Gerstenhaber decomposition for Lie semidirect products gives, for each $n\\ge 0$, a canonical description of $H^n(\\mathfrak{s},\\mathfrak{s})$ in terms of exterior powers of $\\mathcal{Z}(\\mathfrak{s})^\\ast$ and the zero-weight cohomology of $\\mathfrak{s}/\\mathcal{Z}(\\mathfrak{s})$. In particular, the center is the unique source of nontrivial adjoint cohomology.\n  These results identify indecomposability as the precise condition for cohomological rigidity and give a uniform description of adjoint cohomology for seaweed Lie algebras.",
+    "content": "arXiv:2604.17675v1 Announce Type: new \nAbstract: Seaweed (biparabolic) subalgebras form a large and structurally rich class of subalgebras of simple Lie algebras. We determine their adjoint cohomology.\n  If $\\mathfrak{s}$ is an indecomposable seaweed subalgebra of a complex simple Lie algebra, then \\[ H^\\ast(\\mathfrak{s},\\mathfrak{s})=0, \\] and hence $\\mathfrak{s}$ is absolutely rigid. If $\\mathfrak{s}$ is decomposable, then the Coll--Gerstenhaber decomposition for Lie semidirect products gives, for each $n\\ge 0$, a canonical description of $H^n(\\mathfrak{s},\\mathfrak{s})$ in terms of exterior powers of $\\mathcal{Z}(\\mathfrak{s})^\\ast$ and the zero-weight cohomology of $\\mathfrak{s}/\\mathcal{Z}(\\mathfrak{s})$. In particular, the center is the unique source of nontrivial adjoint cohomology.\n  These results identify indecomposability as the precise condition for cohomological rigidity and give a uniform description of adjoint cohomology for seaweed Lie algebras.",
+    "enclosure": {},
+    "categories": [
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Local and 2-local $\\frac{1}2$-derivations of infinite-dimensional Lie algebras",
+    "pubDate": "2026-04-21 04:00:00",
+    "link": "https://arxiv.org/abs/2604.17798",
+    "guid": "oai:arXiv.org:2604.17798v1",
+    "author": "Shavkat Ayupov, Abdireymov Arislanbay, Bakhtiyor Yusupov",
+    "thumbnail": "",
+    "description": "arXiv:2604.17798v1 Announce Type: new \nAbstract: In this work, we describe local and 2-local $\\frac12$-derivations of infinite-dimensional Lie algebras. We prove that all local and 2-local $\\frac12$-derivations of the Witt algebra as well as of the positive Witt algebra and the classical one-sided Witt algebra are $\\frac12$-derivations. We also give an example of an infinite-dimensional Lie algebra with a local (2-local) $\\frac12$-derivation which is not a $\\frac12$-derivation. Further we prove that all local (2-local) $\\frac12$-derivations on the $\\mathcal{W}(a,b)$ algebra are $\\frac12$-derivations.",
+    "content": "arXiv:2604.17798v1 Announce Type: new \nAbstract: In this work, we describe local and 2-local $\\frac12$-derivations of infinite-dimensional Lie algebras. We prove that all local and 2-local $\\frac12$-derivations of the Witt algebra as well as of the positive Witt algebra and the classical one-sided Witt algebra are $\\frac12$-derivations. We also give an example of an infinite-dimensional Lie algebra with a local (2-local) $\\frac12$-derivation which is not a $\\frac12$-derivation. Further we prove that all local (2-local) $\\frac12$-derivations on the $\\mathcal{W}(a,b)$ algebra are $\\frac12$-derivations.",
+    "enclosure": {},
+    "categories": [
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "`New' examples of skew fields not finitely generated as algebras",
+    "pubDate": "2026-04-21 04:00:00",
+    "link": "https://arxiv.org/abs/2604.18480",
+    "guid": "oai:arXiv.org:2604.18480v1",
+    "author": "K. R. Goodearl, E. S. Letzter",
+    "thumbnail": "",
+    "description": "arXiv:2604.18480v1 Announce Type: new \nAbstract: An associative division algebra D is said to be _affine_ over a central subfield k if D is finitely generated as a k-algebra. In 1956 Amitsur famously proved that, when k is uncountable, D cannot be k-affine unless D is algebraic over k. In this paper we consider affineness -- and nonaffineness -- for certain naturally occurring classes of division algebras over arbitrary fields. The primary applications are to division algebras of fractions of suitably conditioned iterated skew polynomial rings over k, including many examples naturally arising in Lie theoretic and quantum group settings. Many transcendental division algebras are thus verified to be nonaffine over k. Division algebras of fractions of Weyl algebras and quantum affine spaces are determined to be affine over their centers exactly when they are finite dimensional over their centers.",
+    "content": "arXiv:2604.18480v1 Announce Type: new \nAbstract: An associative division algebra D is said to be _affine_ over a central subfield k if D is finitely generated as a k-algebra. In 1956 Amitsur famously proved that, when k is uncountable, D cannot be k-affine unless D is algebraic over k. In this paper we consider affineness -- and nonaffineness -- for certain naturally occurring classes of division algebras over arbitrary fields. The primary applications are to division algebras of fractions of suitably conditioned iterated skew polynomial rings over k, including many examples naturally arising in Lie theoretic and quantum group settings. Many transcendental division algebras are thus verified to be nonaffine over k. Division algebras of fractions of Weyl algebras and quantum affine spaces are determined to be affine over their centers exactly when they are finite dimensional over their centers.",
+    "enclosure": {},
+    "categories": [
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Lie Quandles, Leibniz Racks and Noether's First Theorem",
+    "pubDate": "2026-04-21 04:00:00",
+    "link": "https://arxiv.org/abs/2604.17043",
+    "guid": "oai:arXiv.org:2604.17043v1",
+    "author": "Mohamed Elhamdadi, Bryce Virgin",
+    "thumbnail": "",
+    "description": "arXiv:2604.17043v1 Announce Type: cross \nAbstract: In [Self-distributive structures in physics. Internat. J. Theoret. Phys. 64 (2025), no. 3, Paper No. 73], Fritz was motivated by the structure of Hamiltonian/Heisenberg mechanics to define the notion of \"Lie Quandle\", which he argued are nonlinear generalizations of finite dimensional real Lie algebras. In this article, we will investigate a linear/nonlinear correspondence to which Fritz' is a special case, classify a class of generalizations of these objects, as well as describe some results in the direction of a nonlinear analogue of Noether's first theorem first described by Fritz.",
+    "content": "arXiv:2604.17043v1 Announce Type: cross \nAbstract: In [Self-distributive structures in physics. Internat. J. Theoret. Phys. 64 (2025), no. 3, Paper No. 73], Fritz was motivated by the structure of Hamiltonian/Heisenberg mechanics to define the notion of \"Lie Quandle\", which he argued are nonlinear generalizations of finite dimensional real Lie algebras. In this article, we will investigate a linear/nonlinear correspondence to which Fritz' is a special case, classify a class of generalizations of these objects, as well as describe some results in the direction of a nonlinear analogue of Noether's first theorem first described by Fritz.",
+    "enclosure": {},
+    "categories": [
+      "math.QA",
+      "math-ph",
+      "math.CT",
+      "math.GT",
+      "math.MP",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Homological Aspects of Separable Extensions of Triangulated Categories",
+    "pubDate": "2026-04-21 04:00:00",
+    "link": "https://arxiv.org/abs/2604.17996",
+    "guid": "oai:arXiv.org:2604.17996v1",
+    "author": "Miltiadis Karakikes, Panagiotis Kostas",
+    "thumbnail": "",
+    "description": "arXiv:2604.17996v1 Announce Type: cross \nAbstract: We investigate the homological behaviour of compactly generated triangulated categories under separable extensions. We show that homological invariants (finiteness of global dimension, gorensteinness and regularity) are preserved under such extensions. We also establish a relation between singularity categories in this setting, proving that the singularity category of a separable extension is equivalent, up to retracts, to a separable extension of the singularity category. Our results unify and extend classical phenomena from commutative and equivariant algebra, and provide new examples involving separable extensions of rings, quotient schemes, and skew group dg algebras.",
+    "content": "arXiv:2604.17996v1 Announce Type: cross \nAbstract: We investigate the homological behaviour of compactly generated triangulated categories under separable extensions. We show that homological invariants (finiteness of global dimension, gorensteinness and regularity) are preserved under such extensions. We also establish a relation between singularity categories in this setting, proving that the singularity category of a separable extension is equivalent, up to retracts, to a separable extension of the singularity category. Our results unify and extend classical phenomena from commutative and equivariant algebra, and provide new examples involving separable extensions of rings, quotient schemes, and skew group dg algebras.",
+    "enclosure": {},
+    "categories": [
+      "math.RT",
+      "math.AG",
+      "math.CT",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
     "title": "$G_2$-structures as Octonion Algebras",
     "pubDate": "2026-04-20 04:00:00",
     "link": "https://arxiv.org/abs/2604.15966",
