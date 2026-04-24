@@ -1,5 +1,133 @@
 [
   {
+    "title": "Left modularity and extremality for (some) infinite lattices",
+    "pubDate": "2026-04-24 04:00:00",
+    "link": "https://arxiv.org/abs/2604.20947",
+    "guid": "oai:arXiv.org:2604.20947v1",
+    "author": "Sota Asai, Osamu Iyama, Kaveh Mousavand, Charles Paquette",
+    "thumbnail": "",
+    "description": "arXiv:2604.20947v1 Announce Type: new \nAbstract: For some important families of complete infinite lattices, we study some generalizations of two fundamental notions which are mostly treated for finite lattices. Specifically, for well-separated $\\kappa$-lattices, and also for weakly atomic completely semidistributive lattices, we generalize the notions of left modularity and extremality. These two families of lattices coincide if restricted to finite lattices, but are distinct when infinite lattices are also included. For both families, we prove that extremality and left modularity imply each other. Furthermore, for weakly atomic completely semidistributive lattices, we give several conceptual characterizations of left modular elements, and show that the set of left modular elements form a complete distributive sublattice. Our results, combined with some recent work on finite lattices, imply that the weakly atomic completely semidistributive lattices that are left modular (or extremal) generalize the semidistributive trim lattices; from finite to infinite lattices. We then apply our results to the lattice of torsion classes of finite dimensional algebras, which are known to fall in the intersection of the two families treated in our work. For an algebra $A$, we obtain that the lattice of torsion classes is left modular (equivalently, extremal) if and only if $A$ is brick-directed. This leads to an abundance of concrete examples and non-examples.",
+    "content": "arXiv:2604.20947v1 Announce Type: new \nAbstract: For some important families of complete infinite lattices, we study some generalizations of two fundamental notions which are mostly treated for finite lattices. Specifically, for well-separated $\\kappa$-lattices, and also for weakly atomic completely semidistributive lattices, we generalize the notions of left modularity and extremality. These two families of lattices coincide if restricted to finite lattices, but are distinct when infinite lattices are also included. For both families, we prove that extremality and left modularity imply each other. Furthermore, for weakly atomic completely semidistributive lattices, we give several conceptual characterizations of left modular elements, and show that the set of left modular elements form a complete distributive sublattice. Our results, combined with some recent work on finite lattices, imply that the weakly atomic completely semidistributive lattices that are left modular (or extremal) generalize the semidistributive trim lattices; from finite to infinite lattices. We then apply our results to the lattice of torsion classes of finite dimensional algebras, which are known to fall in the intersection of the two families treated in our work. For an algebra $A$, we obtain that the lattice of torsion classes is left modular (equivalently, extremal) if and only if $A$ is brick-directed. This leads to an abundance of concrete examples and non-examples.",
+    "enclosure": {},
+    "categories": [
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Globalization of Partial Group Actions on Not Necessarily Associative Algebras and Covariant Representations",
+    "pubDate": "2026-04-24 04:00:00",
+    "link": "https://arxiv.org/abs/2604.21167",
+    "guid": "oai:arXiv.org:2604.21167v1",
+    "author": "Mikhailo Dokuchaev, Emmanuel Jerez, Jos\\'e L. Vilca-Rodr\\'iguez",
+    "thumbnail": "",
+    "description": "arXiv:2604.21167v1 Announce Type: new \nAbstract: We extend the concept of a partial group action to non-associative algebras in a variety \\(\\mathcal{V}(I)\\), solve the globalization problem within \\(\\mathcal{V}(I)\\) and examine its universal property. It is achieved\n  using what we call the ``$\\Lambda$-construction'', which we also apply to deal with covariant representations in the associative and Lie algebra settings, considering related categories and constructing an adjoint pair of functors between them. We also show that the $\\Lambda$-construction behaves well with semidirect products of Lie algebras.",
+    "content": "arXiv:2604.21167v1 Announce Type: new \nAbstract: We extend the concept of a partial group action to non-associative algebras in a variety \\(\\mathcal{V}(I)\\), solve the globalization problem within \\(\\mathcal{V}(I)\\) and examine its universal property. It is achieved\n  using what we call the ``$\\Lambda$-construction'', which we also apply to deal with covariant representations in the associative and Lie algebra settings, considering related categories and constructing an adjoint pair of functors between them. We also show that the $\\Lambda$-construction behaves well with semidirect products of Lie algebras.",
+    "enclosure": {},
+    "categories": [
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Three-periodic helices on elliptic curves and their associated regular algebras",
+    "pubDate": "2026-04-24 04:00:00",
+    "link": "https://arxiv.org/abs/2604.21900",
+    "guid": "oai:arXiv.org:2604.21900v1",
+    "author": "Daniel Chan, Adam Nyman",
+    "thumbnail": "",
+    "description": "arXiv:2604.21900v1 Announce Type: new \nAbstract: Let $k$ denote an algebraically closed field of characteristic zero and let $X$ denote a smooth elliptic curve over $k$. Given a three-periodic elliptic helix $\\underline{\\mathcal{E}}$ of vector bundles over $X$ with endomorphism $\\mathbb{Z}$-algebra $\\operatorname{End} \\underline{\\mathcal{E}}$ and quadratic cover $\\mathbb{S}^{nc}(\\underline{\\mathcal{E}})$, we prove that $\\operatorname{End} \\underline{\\mathcal{E}}$ is the quotient of $\\mathbb{S}^{nc}(\\underline{\\mathcal{E}})$ by a degree three family of normal elements, generalizing a result of the authors to the case in which $\\operatorname{dim }(\\operatorname{End} \\underline{\\mathcal{E}})_{i, i+1}$ isn't a constant function of $i$. We then show that $\\operatorname{End} \\underline{\\mathcal{E}}$ is noetherian if and only if it has polynomial growth, and in this case, the ranks of any three consecutive bundles in the helix are a Markov triple. Furthermore, in this case $\\mathbb{S}^{nc}(\\underline{\\mathcal{E}})$ is a noetherian GK-three $\\mathbb{Z}$-algebra which is ${\\sf Proj }$-equivalent to an elliptic algebra. We conclude the paper by constructing several new families of elliptic helices with exponential growth.",
+    "content": "arXiv:2604.21900v1 Announce Type: new \nAbstract: Let $k$ denote an algebraically closed field of characteristic zero and let $X$ denote a smooth elliptic curve over $k$. Given a three-periodic elliptic helix $\\underline{\\mathcal{E}}$ of vector bundles over $X$ with endomorphism $\\mathbb{Z}$-algebra $\\operatorname{End} \\underline{\\mathcal{E}}$ and quadratic cover $\\mathbb{S}^{nc}(\\underline{\\mathcal{E}})$, we prove that $\\operatorname{End} \\underline{\\mathcal{E}}$ is the quotient of $\\mathbb{S}^{nc}(\\underline{\\mathcal{E}})$ by a degree three family of normal elements, generalizing a result of the authors to the case in which $\\operatorname{dim }(\\operatorname{End} \\underline{\\mathcal{E}})_{i, i+1}$ isn't a constant function of $i$. We then show that $\\operatorname{End} \\underline{\\mathcal{E}}$ is noetherian if and only if it has polynomial growth, and in this case, the ranks of any three consecutive bundles in the helix are a Markov triple. Furthermore, in this case $\\mathbb{S}^{nc}(\\underline{\\mathcal{E}})$ is a noetherian GK-three $\\mathbb{Z}$-algebra which is ${\\sf Proj }$-equivalent to an elliptic algebra. We conclude the paper by constructing several new families of elliptic helices with exponential growth.",
+    "enclosure": {},
+    "categories": [
+      "math.RA",
+      "math.AG"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Addendum/Corrigendum to \"On solubility of skew left braces and solutions of the Yang-Baxter equation\"",
+    "pubDate": "2026-04-24 04:00:00",
+    "link": "https://arxiv.org/abs/2604.20894",
+    "guid": "oai:arXiv.org:2604.20894v1",
+    "author": "A. Ballester-Bolinches, R. Esteban-Romero, P. Jim\\'enez-Seral, V. P\\'erez-Calabuig",
+    "thumbnail": "",
+    "description": "arXiv:2604.20894v1 Announce Type: cross \nAbstract: In our previous work: Adv. Math. 455 (2024), no. 109880, solubility of solutions was introduced as an extension of solubility of skew braces in the classification context of non-degenerate solutions of the Yang-Baxter equation. One of our main results (Theorem C) proved that a skew brace is soluble if, and only if, its associated solution is soluble. A minor step depending on the definition of homomorphism of solutions was overlooked. In this work, proof of Theorem C is repaired by means of a new class of homomorphisms of solutions: i-homomorphisms of solutions. The importance of this new class is twofold: indecomposable solutions are characterised by means of i-simplicity of solutions, and i-kernels of i-homomorphisms generate ideals in structure skew braces of solutions. Hence, solubility of solutions is redefined as an opposite class of indecomposable solutions. The results obtained with this definition improve our previous outcomes: every soluble solution is proved to have a soluble structure skew brace, and consequently, Theorem C still holds. Several results stemming from this new analysis are outlined.",
+    "content": "arXiv:2604.20894v1 Announce Type: cross \nAbstract: In our previous work: Adv. Math. 455 (2024), no. 109880, solubility of solutions was introduced as an extension of solubility of skew braces in the classification context of non-degenerate solutions of the Yang-Baxter equation. One of our main results (Theorem C) proved that a skew brace is soluble if, and only if, its associated solution is soluble. A minor step depending on the definition of homomorphism of solutions was overlooked. In this work, proof of Theorem C is repaired by means of a new class of homomorphisms of solutions: i-homomorphisms of solutions. The importance of this new class is twofold: indecomposable solutions are characterised by means of i-simplicity of solutions, and i-kernels of i-homomorphisms generate ideals in structure skew braces of solutions. Hence, solubility of solutions is redefined as an opposite class of indecomposable solutions. The results obtained with this definition improve our previous outcomes: every soluble solution is proved to have a soluble structure skew brace, and consequently, Theorem C still holds. Several results stemming from this new analysis are outlined.",
+    "enclosure": {},
+    "categories": [
+      "math.GR",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "A gap principle for polynomial volume growth of zero-entropy automorphisms",
+    "pubDate": "2026-04-24 04:00:00",
+    "link": "https://arxiv.org/abs/2604.21398",
+    "guid": "oai:arXiv.org:2604.21398v1",
+    "author": "Fei Hu, Chen Jiang",
+    "thumbnail": "",
+    "description": "arXiv:2604.21398v1 Announce Type: cross \nAbstract: Let $X$ be a normal projective variety of dimension $d\\ge 4$ and let $f$ be a zero-entropy automorphism of $X$. Denote by $k$ the degree growth rate of $f$, so that $\\mathrm{deg}_1(f^n) \\asymp n^{k}$. We show that if $k=2d-2$ is maximal, then the polynomial volume growth of $f$ satisfies $\\mathrm{plov}(f)=d^2$. If instead $k\\le 2d-4$ is not maximal, then \\[\\mathrm{plov}(f) \\le d(d-2) + 2\\lfloor d/4 \\rfloor.\\] This establishes a gap principle: for every fixed dimension $d\\ge 4$, the invariant $\\mathrm{plov}(f)$ cannot take any value in the open interval $\\bigl(d(d-2) + 2\\lfloor d/4 \\rfloor, \\, d^2\\bigr)$. Our result thus reveals a new rigidity phenomenon for the polynomial volume growth of zero-entropy automorphisms. As a consequence, in dimension $4$ we determine all possible values of $\\mathrm{plov}$, equivalently of the Gelfand--Kirillov dimension, thereby extending the results of Artin--Van den Bergh for surfaces and Lin--Oguiso--Zhang for threefolds.",
+    "content": "arXiv:2604.21398v1 Announce Type: cross \nAbstract: Let $X$ be a normal projective variety of dimension $d\\ge 4$ and let $f$ be a zero-entropy automorphism of $X$. Denote by $k$ the degree growth rate of $f$, so that $\\mathrm{deg}_1(f^n) \\asymp n^{k}$. We show that if $k=2d-2$ is maximal, then the polynomial volume growth of $f$ satisfies $\\mathrm{plov}(f)=d^2$. If instead $k\\le 2d-4$ is not maximal, then \\[\\mathrm{plov}(f) \\le d(d-2) + 2\\lfloor d/4 \\rfloor.\\] This establishes a gap principle: for every fixed dimension $d\\ge 4$, the invariant $\\mathrm{plov}(f)$ cannot take any value in the open interval $\\bigl(d(d-2) + 2\\lfloor d/4 \\rfloor, \\, d^2\\bigr)$. Our result thus reveals a new rigidity phenomenon for the polynomial volume growth of zero-entropy automorphisms. As a consequence, in dimension $4$ we determine all possible values of $\\mathrm{plov}$, equivalently of the Gelfand--Kirillov dimension, thereby extending the results of Artin--Van den Bergh for surfaces and Lin--Oguiso--Zhang for threefolds.",
+    "enclosure": {},
+    "categories": [
+      "math.AG",
+      "math.DS",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Quantization of nilpotent coadjoint $GL_N$-orbit closures in positive characteristics",
+    "pubDate": "2026-04-24 04:00:00",
+    "link": "https://arxiv.org/abs/2604.21597",
+    "guid": "oai:arXiv.org:2604.21597v1",
+    "author": "Filippo Ambrosio, Lewis Topley, Matthew Westaway",
+    "thumbnail": "",
+    "description": "arXiv:2604.21597v1 Announce Type: cross \nAbstract: Let $G$ be a reductive group over an algebraically closed field of positive characteristic $p$, good for the root system of $G$. The closures of $G$-orbits in the Hilbert nullcone of the coadjoint representation are conical affine Poisson varieties, generically of full rank, known as {\\em nilpotent coadjoint orbits}. In this paper, we classify the filtered Hamiltonian quantizations of these orbit closures for $G = GL_N$ and any $p &gt; 0$. Our main new technique is a construction of quantizations from certain primitive quotients of the enveloping algebra, inducing them from the stabiliser in $G$ of the Frobenius twisted $p$-character.",
+    "content": "arXiv:2604.21597v1 Announce Type: cross \nAbstract: Let $G$ be a reductive group over an algebraically closed field of positive characteristic $p$, good for the root system of $G$. The closures of $G$-orbits in the Hilbert nullcone of the coadjoint representation are conical affine Poisson varieties, generically of full rank, known as {\\em nilpotent coadjoint orbits}. In this paper, we classify the filtered Hamiltonian quantizations of these orbit closures for $G = GL_N$ and any $p &gt; 0$. Our main new technique is a construction of quantizations from certain primitive quotients of the enveloping algebra, inducing them from the stabiliser in $G$ of the Frobenius twisted $p$-character.",
+    "enclosure": {},
+    "categories": [
+      "math.RT",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "The theory of implicit operations",
+    "pubDate": "2026-04-24 04:00:00",
+    "link": "https://arxiv.org/abs/2512.14326",
+    "guid": "oai:arXiv.org:2512.14326v2",
+    "author": "Luca Carai, Miriam Kurtzhals, Tommaso Moraschini",
+    "thumbnail": "",
+    "description": "arXiv:2512.14326v2 Announce Type: replace \nAbstract: A family of partial functions of a class of algebras $\\mathsf{K}$ is said to be an implicit operation of $\\mathsf{K}$ when it is defined by a first order formula and it is preserved by homomorphisms. In this work, we develop the theory of implicit operations from an algebraic standpoint.",
+    "content": "arXiv:2512.14326v2 Announce Type: replace \nAbstract: A family of partial functions of a class of algebras $\\mathsf{K}$ is said to be an implicit operation of $\\mathsf{K}$ when it is defined by a first order formula and it is preserved by homomorphisms. In this work, we develop the theory of implicit operations from an algebraic standpoint.",
+    "enclosure": {},
+    "categories": [
+      "math.RA",
+      "math.LO"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Order-Preserving outer automorphisms of free and surface groups",
+    "pubDate": "2026-04-24 04:00:00",
+    "link": "https://arxiv.org/abs/2501.18847",
+    "guid": "oai:arXiv.org:2501.18847v2",
+    "author": "Jonathan Johnson, Khanh Le",
+    "thumbnail": "",
+    "description": "arXiv:2501.18847v2 Announce Type: replace-cross \nAbstract: We give a complete classification to when a finite group of outer automorphisms preserves a bi-order on a non-abelian free group and bi-orderable surface groups. We also give another new criterion for an outer automorphism of $F_n$ induced by action of an $n$-strand braid to preserve a bi-order on $F_n.$ Using the new criterion, we produce examples of order-preserving whose underlying permutation is a full cycle which answers in affirmative a question of Kin and Rolfsen.",
+    "content": "arXiv:2501.18847v2 Announce Type: replace-cross \nAbstract: We give a complete classification to when a finite group of outer automorphisms preserves a bi-order on a non-abelian free group and bi-orderable surface groups. We also give another new criterion for an outer automorphism of $F_n$ induced by action of an $n$-strand braid to preserve a bi-order on $F_n.$ Using the new criterion, we produce examples of order-preserving whose underlying permutation is a full cycle which answers in affirmative a question of Kin and Rolfsen.",
+    "enclosure": {},
+    "categories": [
+      "math.GR",
+      "math.AC",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
     "title": "Free Poisson Rota-Baxter algebra",
     "pubDate": "2026-04-23 04:00:00",
     "link": "https://arxiv.org/abs/2604.20412",
