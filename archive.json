@@ -1,5 +1,105 @@
 [
   {
+    "title": "On the rank of quaternion Hankel matrices",
+    "pubDate": "2026-04-27 04:00:00",
+    "link": "https://arxiv.org/abs/2604.22594",
+    "guid": "oai:arXiv.org:2604.22594v1",
+    "author": "Philippe Flores, Julien Flamant, Nicolas Le Bihan",
+    "thumbnail": "",
+    "description": "arXiv:2604.22594v1 Announce Type: new \nAbstract: This paper discusses the left and right ranks of quaternion matrices with Hankel structure. While they are in general different for arbitrary quaternion matrices, we show that the left and right ranks of quaternion Hankel matrices are equal. Moreover, we establish the relation between Hankel matrices and the existence of linear recurrence relations with quaternion coefficients.",
+    "content": "arXiv:2604.22594v1 Announce Type: new \nAbstract: This paper discusses the left and right ranks of quaternion matrices with Hankel structure. While they are in general different for arbitrary quaternion matrices, we show that the left and right ranks of quaternion Hankel matrices are equal. Moreover, we establish the relation between Hankel matrices and the existence of linear recurrence relations with quaternion coefficients.",
+    "enclosure": {},
+    "categories": [
+      "math.RA",
+      "eess.SP"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "On simple compact Lie skew braces",
+    "pubDate": "2026-04-27 04:00:00",
+    "link": "https://arxiv.org/abs/2604.22373",
+    "guid": "oai:arXiv.org:2604.22373v1",
+    "author": "Marco Damele, Andrea Loi",
+    "thumbnail": "",
+    "description": "arXiv:2604.22373v1 Announce Type: cross \nAbstract: We study simplicity of Lie skew braces from both global and infinitesimal perspectives. After reviewing the correspondence between connected Lie skew braces, simply transitive affine actions, and post-Lie algebras, we investigate ideals and rigidity phenomena.\n  Our main result concerns compact connected Lie skew braces. We prove that any compact connected simple Lie skew brace is either the trivial Lie skew brace on \\(S^1\\), or both of its underlying Lie groups are simple and the brace is trivial or almost trivial. Consequently, apart from the exceptional \\(S^1\\) case, simplicity of a compact connected Lie skew brace is equivalent to simplicity of either underlying Lie group.\n  We also show that every connected compact solvable Lie skew brace is trivial. Finally, we construct a noncompact example demonstrating that this rigidity phenomenon does not hold in general: there exists a connected simply connected simple Lie skew brace whose additive and multiplicative Lie groups are both solvable.",
+    "content": "arXiv:2604.22373v1 Announce Type: cross \nAbstract: We study simplicity of Lie skew braces from both global and infinitesimal perspectives. After reviewing the correspondence between connected Lie skew braces, simply transitive affine actions, and post-Lie algebras, we investigate ideals and rigidity phenomena.\n  Our main result concerns compact connected Lie skew braces. We prove that any compact connected simple Lie skew brace is either the trivial Lie skew brace on \\(S^1\\), or both of its underlying Lie groups are simple and the brace is trivial or almost trivial. Consequently, apart from the exceptional \\(S^1\\) case, simplicity of a compact connected Lie skew brace is equivalent to simplicity of either underlying Lie group.\n  We also show that every connected compact solvable Lie skew brace is trivial. Finally, we construct a noncompact example demonstrating that this rigidity phenomenon does not hold in general: there exists a connected simply connected simple Lie skew brace whose additive and multiplicative Lie groups are both solvable.",
+    "enclosure": {},
+    "categories": [
+      "math.GR",
+      "math.DG",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Affine Supertrusses and Superbraces",
+    "pubDate": "2026-04-27 04:00:00",
+    "link": "https://arxiv.org/abs/2604.22381",
+    "guid": "oai:arXiv.org:2604.22381v1",
+    "author": "Andrew James Bruce",
+    "thumbnail": "",
+    "description": "arXiv:2604.22381v1 Announce Type: cross \nAbstract: Brzezi\\'nski's trusses are ``ring-like'' algebraic structures in which the addition is replaced with an abelian heap operation and the binary product satisfies a natural distributivity rule of the ternary product. The question of how to define ($\\mathbb{Z}_2$-graded) super-versions of trusses is addressed in this note. Taking our cue from the theory of algebraic supergroups, we define an affine supertruss as a representable functor from the category of unital associative supercommutative superalgebras to the category of trusses. The representing superalgebras are equipped with a `cotruss' structure--a new concept in itself. We show that from an affine supertruss one can construct an affine superbrace, and so generalise Rump's braces to supermathematics. As an application of these constructions, we propose a generalisation of the set-theoretic Yang--Baxter equation to the setting of affine superschemes.",
+    "content": "arXiv:2604.22381v1 Announce Type: cross \nAbstract: Brzezi\\'nski's trusses are ``ring-like'' algebraic structures in which the addition is replaced with an abelian heap operation and the binary product satisfies a natural distributivity rule of the ternary product. The question of how to define ($\\mathbb{Z}_2$-graded) super-versions of trusses is addressed in this note. Taking our cue from the theory of algebraic supergroups, we define an affine supertruss as a representable functor from the category of unital associative supercommutative superalgebras to the category of trusses. The representing superalgebras are equipped with a `cotruss' structure--a new concept in itself. We show that from an affine supertruss one can construct an affine superbrace, and so generalise Rump's braces to supermathematics. As an application of these constructions, we propose a generalisation of the set-theoretic Yang--Baxter equation to the setting of affine superschemes.",
+    "enclosure": {},
+    "categories": [
+      "math-ph",
+      "math.AG",
+      "math.MP",
+      "math.QA",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "The second Hochschild cohomology and deformations of Brauer graph algebras",
+    "pubDate": "2026-04-27 04:00:00",
+    "link": "https://arxiv.org/abs/2601.06888",
+    "guid": "oai:arXiv.org:2601.06888v2",
+    "author": "Yuming Liu, Zhengfang Wang, Bohan Xing",
+    "thumbnail": "",
+    "description": "arXiv:2601.06888v2 Announce Type: replace \nAbstract: In this paper, we give an explicit description about the second Hochschild cohomology groups of bipartite Brauer graph algebras with trivial grading. Based on this, we provide geometric interpretations of deformations associated to some standard cocycles in terms of the surface models of Brauer graph algebras.",
+    "content": "arXiv:2601.06888v2 Announce Type: replace \nAbstract: In this paper, we give an explicit description about the second Hochschild cohomology groups of bipartite Brauer graph algebras with trivial grading. Based on this, we provide geometric interpretations of deformations associated to some standard cocycles in terms of the surface models of Brauer graph algebras.",
+    "enclosure": {},
+    "categories": [
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Entrywise preservers of sign regularity",
+    "pubDate": "2026-04-27 04:00:00",
+    "link": "https://arxiv.org/abs/2509.17902",
+    "guid": "oai:arXiv.org:2509.17902v2",
+    "author": "Projesh Nath Choudhury, Shivangi Yadav",
+    "thumbnail": "",
+    "description": "arXiv:2509.17902v2 Announce Type: replace-cross \nAbstract: Entrywise functions preserving positivity and related notions have a rich history, beginning with the seminal works of Schur, P\\'olya-Szeg\\H{o}, Schoenberg, and Rudin. Following their classical results, it is well-known that entrywise functions preserving positive semidefiniteness for matrices of all dimensions must be real analytic with non-negative Taylor coefficients. These works were taken forward in the last decade by Belton, Guillot, Khare, Putinar, and Rajaratnam. Recently, Belton-Guillot-Khare-Putinar [J. d'Analyse Math. 2023] classified all functions that entrywise preserve totally positive (TP) and totally non-negative (TN) matrices. In this paper, we study entrywise preservers of strictly sign regular and sign regular matrices - a class that includes TP/TN matrices as special cases and was first studied by Schoenberg in 1930 to characterize variation diminution. Our main results provide complete characterizations of entrywise transforms of rectangular matrices which preserve: (i)~sign regularity and strict sign regularity, as well as (ii)~sign regularity and strict sign regularity with a given sign pattern.",
+    "content": "arXiv:2509.17902v2 Announce Type: replace-cross \nAbstract: Entrywise functions preserving positivity and related notions have a rich history, beginning with the seminal works of Schur, P\\'olya-Szeg\\H{o}, Schoenberg, and Rudin. Following their classical results, it is well-known that entrywise functions preserving positive semidefiniteness for matrices of all dimensions must be real analytic with non-negative Taylor coefficients. These works were taken forward in the last decade by Belton, Guillot, Khare, Putinar, and Rajaratnam. Recently, Belton-Guillot-Khare-Putinar [J. d'Analyse Math. 2023] classified all functions that entrywise preserve totally positive (TP) and totally non-negative (TN) matrices. In this paper, we study entrywise preservers of strictly sign regular and sign regular matrices - a class that includes TP/TN matrices as special cases and was first studied by Schoenberg in 1930 to characterize variation diminution. Our main results provide complete characterizations of entrywise transforms of rectangular matrices which preserve: (i)~sign regularity and strict sign regularity, as well as (ii)~sign regularity and strict sign regularity with a given sign pattern.",
+    "enclosure": {},
+    "categories": [
+      "math.FA",
+      "math.CA",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
+    "title": "Asymptotic Universal Koszulity in Galois Cohomology",
+    "pubDate": "2026-04-27 04:00:00",
+    "link": "https://arxiv.org/abs/2603.27032",
+    "guid": "oai:arXiv.org:2603.27032v2",
+    "author": "Marina Palaisti",
+    "thumbnail": "",
+    "description": "arXiv:2603.27032v2 Announce Type: replace-cross \nAbstract: We introduce the notion of asymptotic universal Koszulity for graded-commutative algebras generated in degree~$1$, capturing the idea that an infinite-dimensional algebra can be approximated by a filtered system of finite-type universally Koszul quadratic subalgebras. We establish basic structural properties of this class, including stability under filtered colimits, direct products, and base change, as well as a local finite-type criterion expressed in terms of finite-dimensional subspaces of the degree-one component. In the context of Galois cohomology, we prove a colimit theorem for pro-$p$ groups under mild assumptions, showing that cohomology rings arise as filtered colimits of finite quotients. This yields a general criterion under which the cohomology algebra of a profinite group is asymptotically universally Koszul. We further analyze finitely generated quotients via a finite-type capture result, identifying their cohomology with canonical quadratic subalgebras of the ambient algebra. Finally, we formulate conditional local--global and patching principles that isolate the mechanisms by which asymptotic universal Koszulity may arise in arithmetic settings. These results provide a flexible structural framework linking homological algebra, quadratic algebras, and Galois cohomology, and suggest several directions for further investigation.",
+    "content": "arXiv:2603.27032v2 Announce Type: replace-cross \nAbstract: We introduce the notion of asymptotic universal Koszulity for graded-commutative algebras generated in degree~$1$, capturing the idea that an infinite-dimensional algebra can be approximated by a filtered system of finite-type universally Koszul quadratic subalgebras. We establish basic structural properties of this class, including stability under filtered colimits, direct products, and base change, as well as a local finite-type criterion expressed in terms of finite-dimensional subspaces of the degree-one component. In the context of Galois cohomology, we prove a colimit theorem for pro-$p$ groups under mild assumptions, showing that cohomology rings arise as filtered colimits of finite quotients. This yields a general criterion under which the cohomology algebra of a profinite group is asymptotically universally Koszul. We further analyze finitely generated quotients via a finite-type capture result, identifying their cohomology with canonical quadratic subalgebras of the ambient algebra. Finally, we formulate conditional local--global and patching principles that isolate the mechanisms by which asymptotic universal Koszulity may arise in arithmetic settings. These results provide a flexible structural framework linking homological algebra, quadratic algebras, and Galois cohomology, and suggest several directions for further investigation.",
+    "enclosure": {},
+    "categories": [
+      "math.NT",
+      "math.RA"
+    ],
+    "__source": "http://rss.arxiv.org/rss/math.RA/"
+  },
+  {
     "title": "Left modularity and extremality for (some) infinite lattices",
     "pubDate": "2026-04-24 04:00:00",
     "link": "https://arxiv.org/abs/2604.20947",
